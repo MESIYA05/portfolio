@@ -533,18 +533,21 @@ color: #00fefc !important;
  }
  @media (max-width: 500px){
     .navba{
-        width: 90% !important;
+        /* width: 90% !important; */
+        position: fixed !important;
+        top: 0px;
+        z-index: 1 !important;
     }
-    .navbar-toggler{
+    /* .navbar-toggler{
         margin-right: 0px !important;
 
-    }
+    } */
   
-    .me-auto {
+    /* .me-auto {
         padding-left: 120px !important;
         
         
-    }
+    } */
     .con1 h4{
         width: 230px !important;
         padding: 5px 15px !important;
