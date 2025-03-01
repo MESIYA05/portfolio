@@ -532,8 +532,8 @@ color: #00fefc !important;
    
  }
  @media (max-width: 500px){
-    .navba{
-        width: 80% !important;
+    /* .navba{
+        width: 85% !important;
         position: fixed !important;
         top: 0px !important;
         
@@ -547,7 +547,7 @@ color: #00fefc !important;
         padding-left: 120px !important;
         
         
-    }
+    } */
     .con1 h4{
         width: 230px !important;
         padding: 5px 15px !important;
