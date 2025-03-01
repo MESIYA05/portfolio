@@ -541,4 +541,16 @@ color: #00fefc !important;
     .adjust{
         margin-left: 0px !important;
     }
+    .pot{
+        
+        padding: 0px 7px !important;
+       
+        height: 30px !important;
+       
+        width: 90px !important;
+       
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+        font-weight: 1000;
+        font-size: 19px;
+    }
  }
