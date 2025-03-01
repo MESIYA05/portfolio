@@ -533,7 +533,7 @@ color: #00fefc !important;
  }
  @media (max-width: 500px){
     .navba{
-        width: 70% !important;
+        width: 80% !important;
         position: fixed !important;
         top: 0px !important;
         
