@@ -531,6 +531,13 @@ color: #00fefc !important;
    
  }
  @media (max-width: 500px){
+    .navba{
+        width: 90% !important;
+    }
+    .navbar-toggler{
+        margin-right: 30px !important;
+
+    }
     /* body{
         width: 100% !important;
     } */
@@ -598,11 +605,5 @@ color: #00fefc !important;
         
         
     }
-    .navba{
-        width: 95% !important;
-    }
-    .navbar-toggler{
-        margin-right: 30px !important;
-
-    }
+   
  }
