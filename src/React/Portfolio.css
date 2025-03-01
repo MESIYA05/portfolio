@@ -525,4 +525,11 @@ color: #00fefc !important;
     }
    
  }
- 
+ @media (max-width: 768px){
+    .con1 h4{
+        width: 230px !important;
+        padding: 5px 15px !important;
+    
+        margin: 20px 30px !important;
+    }
+ }
