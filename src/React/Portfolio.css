@@ -532,14 +532,19 @@ color: #00fefc !important;
  }
  @media (max-width: 500px){
     .navba{
-        width: 90% !important;
+        width: 70% !important;
     }
     .navbar-toggler{
         margin-right: 30px !important;
 
     }
-    body{
+    /* body{
         width: 90% !important;
+    } */
+    .me-auto {
+        padding-left: 120px !important;
+        
+        
     }
     .con1 h4{
         width: 230px !important;
@@ -600,10 +605,6 @@ color: #00fefc !important;
     .conbut{
         margin-left: 28px !important;
     }
-    .me-auto {
-        padding-left: 190px !important;
-        
-        
-    }
+   
    
  }
