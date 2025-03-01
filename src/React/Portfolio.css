@@ -458,6 +458,11 @@ color: #00fefc !important;
     text-shadow: 2px 1px  4px #ff3131,2px 1px  4px #ff3131,2px 1px  4px #ff3131,2px 1px  4px #ff3131;
 }
 @media (max-width: 768px) {
+    .me-auto {
+        padding-left: 250px !important;
+        
+        
+    }
     #home{
         height: 120vh !important;
     }
