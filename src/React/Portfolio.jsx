@@ -302,7 +302,7 @@ const Portfolio = () => {
         <div className='col-lg-4 col-md-4 col-12'>
                 <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}} className='adjust'>
                 <Card.Img  className="text-center " variant="top" src={gym} />
-                <Card.Body className='cards' style={{border:"1px solid #00fefc",borderRadius:'3px'}}>
+                <Card.Body className='cards' style={{borderTop:"2px solid #00fefc",borderRadius:'3px'}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>LDRAGO FITNESS GYM</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-REACT JS-EMAIL JS</Card.Title>
                 <button className='btnweb web22'> <a href="https://gym-mesiyas-projects-6f56510b.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/Gym"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
@@ -334,7 +334,7 @@ const Portfolio = () => {
         <div className='col-lg-4 col-md-4 col-12'>
         <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}} className='adjust'>
                 <Card.Img  className="text-center " variant="top" src={todo} />
-                <Card.Body className='cards' style={{border:"2px solid #00fefc"}}>
+                <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>TODO-LIST WEBAPP</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-JAVASCRIPT-LOCAL HOST</Card.Title>
                 <button className='btnweb web22'> <a href="https://todoapp-liart-eight.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/todoapp"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
@@ -345,7 +345,7 @@ const Portfolio = () => {
         <div className='col-lg-4 col-md-4 col-12'>
         <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'>
                 <Card.Img  className="text-center " variant="top" src={tube} />
-                <Card.Body className='cards' style={{border:"2px solid #00fefc"}}>
+                <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>YOUTUBE VIDEO DOWNLOADER</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-DJANGO FRAMEWORK</Card.Title><br/>
                 <button className='web24'><a href="https://github.com/MESIYA05/utube-vd-downloader"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
@@ -356,7 +356,7 @@ const Portfolio = () => {
         <div className='col-lg-4 col-md-4 col-12'>
         <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'>
                 <Card.Img  className="text-center " variant="top" src={crud} />
-                <Card.Body className='cards' style={{border:"2px solid #00fefc"}}>
+                <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>CRUD OPERATIONS</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-DJANGO FRAMEWORK-MY SQL</Card.Title>
                 <button className='web24'><a href="https://github.com/MESIYA05/crud-operations"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
@@ -368,7 +368,7 @@ const Portfolio = () => {
         <div className='col-lg-4 col-md-4 col-12'>
         <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'>
                 <Card.Img  className="text-center " variant="top" src={bmi} />
-                <Card.Body className='cards' style={{border:"2px solid #00fefc"}}>
+                <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>BMI VALUE CALCULATION</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-REACT JS</Card.Title><br/>
                 <button className='btnweb web22'> <a href="https://calculatebmivalue.netlify.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/CalculateBmiValue"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
