@@ -531,9 +531,9 @@ color: #00fefc !important;
    
  }
  @media (max-width: 500px){
-    body{
+    /* body{
         width: 100% !important;
-    }
+    } */
     .con1 h4{
         width: 230px !important;
         padding: 5px 15px !important;
