@@ -57,7 +57,7 @@ body{
     position: fixed !important;
     top: 0px;
     z-index: 1 !important;
-    /* width: 100% !important; */
+    width: 100% !important;
     background: black !important;
     box-shadow: 2px 4px 12px 8px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px 4px 12px 8px rgba(0,0,0,0.75);
