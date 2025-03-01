@@ -532,10 +532,10 @@ color: #00fefc !important;
    
  }
  @media (max-width: 500px){
-    .navba{
-        /* width: 90% !important; */
+    .navbar-nav{
+        width: 70% !important;
         position: fixed !important;
-        top: 0px;
+        top: 0px !important;
         z-index: 1 !important;
     }
     /* .navbar-toggler{
