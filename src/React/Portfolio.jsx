@@ -71,7 +71,7 @@ const Portfolio = () => {
     <section id='home'>
        <div className='container-fluid'>
         <div className='row flr'>
-            <div data-aos="fade-right"  className='col-lg-6 col-md-6 col-12 hometext '><br/><br/><br/>
+            <div data-aos="fade-right"  className='col-lg-6 col-md-6 col-12 hometext '><br/><br/><br/><br/><br/>
                 <h1 className='text-center'>HI. I AM <span>MESIYA</span></h1>
                 <h3 className='text-center'>PYTHON FULL-STACT DEVELOPER</h3>
                 <h6  className='text-center'>I am a Full Stack Developer with a focus on both frontend and backend technologies. 
@@ -93,8 +93,8 @@ const Portfolio = () => {
     <section id='about'>
        <div className='container'>
         <h1 className='mark text-center subhead'>ABOUT <span>ME</span></h1>
-        <div className='row abme'><br/><br/><br/>
-            <div className='col-lg-6 col-md-6 col-12 abbb'>
+        <div className='row abme'>
+            <div className='col-lg-6 col-md-6 col-12 abbb'><br/><br/>
                 <img className='img-fluid aboutimg' src={joe} alt='mesiyaa'  /><br/><br/>
                 <h1 className='mes'>MESIYA</h1>
                 <h4 className='fully'>PYTHON FULL-STACK DEVELOPER</h4>
