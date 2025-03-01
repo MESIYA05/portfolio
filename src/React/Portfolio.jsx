@@ -79,7 +79,7 @@ const Portfolio = () => {
                     and continuous earning, aiming to contribute effectively to projects and collaborate with skilled teams.</h6><br/>
                     <button  className='but hire'> <Nav.Link href="#contact">HIRE ME</Nav.Link></button> <button className=' more but'><Nav.Link href="#about">MORE INFO</Nav.Link> </button>
             </div>
-            <div className='col-lg-6 col-md-6 col-12'><br/><br/><br/><br/><br/>
+            <div className='col-lg-6 col-md-6 col-12'><br/><br/><br/><br/>
               <img src={joe4} alt="homeimage"  className='img-fluid homeimg'/>
 
             </div>
@@ -93,7 +93,7 @@ const Portfolio = () => {
     <section id='about'>
        <div className='container'>
         <h1 className='mark text-center subhead'>ABOUT <span>ME</span></h1>
-        <div className='row abme'><br/>
+        <div className='row abme'><br/><br/>
             <div className='col-lg-6 col-md-6 col-12 abbb'>
                 <img className='img-fluid aboutimg' src={joe} alt='mesiyaa'  /><br/><br/>
                 <h1 className='mes'>MESIYA</h1>
