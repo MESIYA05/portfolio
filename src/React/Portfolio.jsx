@@ -383,7 +383,7 @@ const Portfolio = () => {
                 <Card.Img  className="text-center " variant="top" src={weather} />
                 <Card.Body className='cards' style={{borderTop:"1px solid #00fefc",borderRadius:'2px'}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>CURRENT WEATHER FINDER</Card.Text>
-                <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-JAVASCRIPT</Card.Title><br/>
+                <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-JAVASCRIPT</Card.Title>
                 <button className='btnweb web22'> <a href="https://weather-seven-orcin.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/weather"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
                 </Card.Body>
                 </Card>
