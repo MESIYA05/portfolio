@@ -538,9 +538,9 @@ color: #00fefc !important;
         margin-right: 30px !important;
 
     }
-    /* body{
-        width: 100% !important;
-    } */
+    body{
+        width: 90% !important;
+    }
     .con1 h4{
         width: 230px !important;
         padding: 5px 15px !important;
