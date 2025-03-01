@@ -532,7 +532,7 @@ color: #00fefc !important;
  }
  @media (max-width: 500px){
     .navba{
-        width: 70% !important;
+        width: 100% !important;
     }
     .navbar-toggler{
         margin-right: 30px !important;
