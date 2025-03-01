@@ -598,6 +598,9 @@ color: #00fefc !important;
         
         
     }
+    .navba{
+        width: 100% !important;
+    }
     .navbar-toggler{
         margin-right: 30px !important;
 
