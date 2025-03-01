@@ -582,4 +582,10 @@ color: #00fefc !important;
     .toolskill{
         margin-left: 40px  !important;
     }
+    .con2 input,textarea{
+        margin-left: 20px !important;
+    }
+    .conbut{
+        margin-left: 20px !important;
+    }
  }
