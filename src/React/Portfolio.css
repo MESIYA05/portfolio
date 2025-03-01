@@ -532,16 +532,16 @@ color: #00fefc !important;
    
  }
  @media (max-width: 500px){
-    .navbar-nav{
+    .navbar{
         width: 70% !important;
         position: fixed !important;
         top: 0px !important;
         z-index: 1 !important;
     }
-    /* .navbar-toggler{
+    .navbar-toggler{
         margin-right: 0px !important;
 
-    } */
+    }
   
     /* .me-auto {
         padding-left: 120px !important;
