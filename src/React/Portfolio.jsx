@@ -441,15 +441,16 @@ const Portfolio = () => {
               <button type="submit" value="Send" className='conbut'>GET IN TOUCH</button>
             </form>
           </div>
-         
-        </div>
-        <div className="fixed bottom-4 right-4">
+          
+          <div className="fixed bottom-4 right-4">
       {visible && (
         <button onClick={scrollToTop} className="p-3 rounded-full shadow-lg bg-blue-500 text-white" style={{backgroundColor:'black',border:'none'}}>
           <FontAwesomeIcon icon={faCircleArrowUp} style={{color:'#00fefc',fontSize:'2rem'}}/>
         </button>
       )}
     </div>
+        </div>
+      
         <div className='row'>
         <div className='col-lg-12 col-md-12 col-12 footer'>
             <h5 className='text-center'>Thank You For Visiting <FontAwesomeIcon icon={faHeart} style={{color: "red"}} />. </h5>
