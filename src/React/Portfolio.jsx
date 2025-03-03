@@ -51,7 +51,7 @@ const Portfolio = () => {
   return (
     <>
        
-      <Navbar expand="lg"  className="  navba" >
+      {/* <Navbar expand="lg"  className="  navba" >
       <Container >
         <Navbar.Brand href="#home" className='pot'>PORTFOLIO</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
@@ -66,7 +66,7 @@ const Portfolio = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> */}
    
     <section id='home'>
        <div className='container-fluid'>
