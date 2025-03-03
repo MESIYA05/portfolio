@@ -543,9 +543,9 @@ color: #00fefc !important;
     }
    .me-auto a{
     width: 99% !important;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
-    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 17px !important;
    }
     .con1 h4{
         width: 230px !important;
