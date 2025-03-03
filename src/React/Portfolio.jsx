@@ -50,7 +50,7 @@ const Portfolio = () => {
   };
   return (
     <>
-       
+       <div className='portwidth'>
       {/* <Navbar expand="lg"  className="  navba" >
       <Container >
         <Navbar.Brand href="#home" className='pot'>PORTFOLIO</Navbar.Brand>
@@ -432,7 +432,7 @@ const Portfolio = () => {
         </div>
       </div>
     </section>
-   
+    </div>
     </>
   )
 }

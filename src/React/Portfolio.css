@@ -562,6 +562,9 @@ color: #00fefc !important;
     .aboutimg{
         width: 350px !important;
     }
+    .portwidth{
+        width: 100% !important;
+    }
     .adjust{
         margin-left: 0px !important;
         width: 20rem !important;
