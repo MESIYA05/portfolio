@@ -548,9 +548,7 @@ color: #00fefc !important;
         
         
     } */
-    section{
-        width: 100% !important;
-    }
+   
     .con1 h4{
         width: 230px !important;
         padding: 5px 15px !important;
@@ -559,10 +557,14 @@ color: #00fefc !important;
     }
     .homeimg{
         margin-left: 0px !important;
+        width: 350px !important;
+    }
+    .aboutimg{
+        width: 350px !important;
     }
     .adjust{
         margin-left: 0px !important;
-        width: 23rem !important;
+        width: 20rem !important;
     }
     .pot{
         
@@ -599,7 +601,7 @@ color: #00fefc !important;
     }
     .skillfi{
         margin-left: 0px !important;
-        width: 23rem !important;
+        width: 20rem !important;
     }
     .toolskill{
         margin-left: 40px  !important;
