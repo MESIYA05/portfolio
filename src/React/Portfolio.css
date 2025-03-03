@@ -563,7 +563,7 @@ color: #00fefc !important;
         width: 350px !important;
     }
     .portwidth{
-        width: 100% !important;
+        overflow: hidden !important;
     }
     .adjust{
         margin-left: 0px !important;
