@@ -50,8 +50,8 @@ const Portfolio = () => {
   };
   return (
     <>
-       <div className='portwidth'>
-      {/* <Navbar expand="lg"  className="  navba" >
+       {/* <div className='portwidth'>
+      <Navbar expand="lg"  className="  navba" >
       <Container >
         <Navbar.Brand href="#home" className='pot'>PORTFOLIO</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
@@ -66,7 +66,7 @@ const Portfolio = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar> */}
+    </Navbar>
    
     <section id='home'>
        <div className='container-fluid'>
@@ -113,7 +113,7 @@ const Portfolio = () => {
             </div>
 
 
-            {/* ....................edcation.................. */}
+            
             <div data-aos="fade-left" className='row edu'>
                 <h1 className='text-center moreab'> EDUCATION</h1><br/><br/><br/><br/><br/>
             <div className='col-lg-4 col-md-4 col-12'>
@@ -166,13 +166,13 @@ const Portfolio = () => {
             </div>
 
 
-            {/* ....................edcationend.................. */}
+           
               
         </div>
         </div>
     </section>
 
-    {/* ..........................Skills......................... */}
+    
     <section id='skills'>
       <div className='container'>
         <h1 className='mark text-center subhead'>MY <span>SKILLS</span></h1>
@@ -290,11 +290,11 @@ const Portfolio = () => {
    
     </div>
     </section>
-    {/* ..........................Skillsend......................... */}
+   
 
 
 
-    {/* ..........................projects......................... */}
+   
     <section id='projects'>
       <div className='container'>
         <h1 className='mark text-center subhead'>MY <span>PROJECTS</span></h1><br/><br/><br/>
@@ -396,8 +396,7 @@ const Portfolio = () => {
         </div>
       </div>
     </section>
-    {/* ..........................projectsend......................... */}
-    {/* ..........................contact......................... */}
+   
     <section id='contact'>
       <div className="container-fluid">
       <h1 className='mark text-center subhead'>CONTACT <span>US</span></h1>
@@ -432,7 +431,7 @@ const Portfolio = () => {
         </div>
       </div>
     </section>
-    </div>
+    </div> */}
     </>
   )
 }
