@@ -28,6 +28,9 @@ body{
     font-weight: 1000;
     font-size: 19px;
 }
+.bottom-4{
+    margin-left: 94% !important;
+}
 .me-auto a{
     color: rgb(239, 239, 239) !important;
     

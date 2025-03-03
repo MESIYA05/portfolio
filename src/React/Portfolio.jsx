@@ -1,11 +1,11 @@
-import React , {useEffect,useRef} from 'react'
+import React , {useEffect,useRef,useState} from 'react'
 import './Portfolio.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Card from 'react-bootstrap/Card';
-import {faCircleDown,faCode,faCircle,faServer,faDatabase,faGear,faLink,faEnvelope,faPhone,faHeart} from '@fortawesome/free-solid-svg-icons';
+import {faCircleDown,faCode,faCircle,faServer,faDatabase,faGear,faLink,faEnvelope,faPhone,faHeart,faCircleArrowUp} from '@fortawesome/free-solid-svg-icons';
 import {faPython,faGithub,faInstagram,faLinkedin,faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import mesiya from '../ASSETS/mesiya 2.pdf.pdf';
 import bmi from '../ASSETS/bmi.png';
@@ -48,6 +48,26 @@ const Portfolio = () => {
       ); 
       e.target.reset()
   };
+
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY > 300) {
+        setVisible(true);
+      } else {
+        setVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <>
        <div className='portwidth'>
@@ -423,6 +443,13 @@ const Portfolio = () => {
           </div>
          
         </div>
+        <div className="fixed bottom-4 right-4">
+      {visible && (
+        <button onClick={scrollToTop} className="p-3 rounded-full shadow-lg bg-blue-500 text-white" style={{backgroundColor:'black',border:'none'}}>
+          <FontAwesomeIcon icon={faCircleArrowUp} style={{color:'#00fefc',fontSize:'2rem'}}/>
+        </button>
+      )}
+    </div>
         <div className='row'>
         <div className='col-lg-12 col-md-12 col-12 footer'>
             <h5 className='text-center'>Thank You For Visiting <FontAwesomeIcon icon={faHeart} style={{color: "red"}} />. </h5>
