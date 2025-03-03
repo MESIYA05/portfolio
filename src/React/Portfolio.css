@@ -535,11 +535,12 @@ color: #00fefc !important;
    
  }
  @media (max-width: 480px){
-   /* .me-auto {
-        padding-left: 120px !important;
+   .me-auto {
+        padding-left: 0px !important;
+        width: 90% !important;
         
         
-    } */
+    }
    
     .con1 h4{
         width: 230px !important;
