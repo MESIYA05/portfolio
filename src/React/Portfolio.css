@@ -12,9 +12,7 @@ body{
 #home{
     height: 100vh !important;
 }
-section{
-    width: 100% !important;
-}
+
 .pot{
     color: rgb(239, 239, 239) !important;
     padding: 0px 15px !important;
@@ -550,7 +548,9 @@ color: #00fefc !important;
         
         
     } */
-    
+    section{
+        width: 100% !important;
+    }
     .con1 h4{
         width: 230px !important;
         padding: 5px 15px !important;
