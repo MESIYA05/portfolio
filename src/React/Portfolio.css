@@ -464,6 +464,9 @@ color: #00fefc !important;
         
         
     }
+    .portwidth{
+        overflow: hidden !important;
+    }
     #home{
         height: 120vh !important;
     }
@@ -532,18 +535,7 @@ color: #00fefc !important;
    
  }
  @media (max-width: 480px){
-    /* .navba{
-        width: 85% !important;
-        position: fixed !important;
-        top: 0px !important;
-        
-    }
-    .navbar-toggler{
-        margin-right: 0px !important;
-
-    }
-  
-    .me-auto {
+   /* .me-auto {
         padding-left: 120px !important;
         
         
@@ -557,17 +549,17 @@ color: #00fefc !important;
     }
     .homeimg{
         margin-left: 0px !important;
-        width: 350px !important;
+        /* width: 350px !important; */
     }
-    .aboutimg{
+    /* .aboutimg{
         width: 350px !important;
-    }
+    } */
     .portwidth{
         overflow: hidden !important;
     }
     .adjust{
         margin-left: 0px !important;
-        width: 20rem !important;
+        width: 23rem !important;
     }
     .pot{
         
@@ -604,7 +596,7 @@ color: #00fefc !important;
     }
     .skillfi{
         margin-left: 0px !important;
-        width: 20rem !important;
+        width: 23rem !important;
     }
     .toolskill{
         margin-left: 40px  !important;
