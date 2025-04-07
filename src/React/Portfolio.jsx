@@ -20,10 +20,10 @@ import joe from '../ASSETS/joe.jpg';
 import joe4 from '../ASSETS/joe4.jpg';
 import emailjs from '@emailjs/browser';
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Portfolio = () => {
   useEffect (() => {
