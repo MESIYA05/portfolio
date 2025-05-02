@@ -15,6 +15,7 @@ import port from '../ASSETS/port.png';
 import spices from '../ASSETS/spices.png';
 import todo from '../ASSETS/todo.png';
 import tube from '../ASSETS/tube.png';
+import studio from '../ASSETS/studio.png';
 import weather from '../ASSETS/weather.png';
 import joe from '../ASSETS/joe.jpg';
 import joe4 from '../ASSETS/joe4.jpg';
@@ -91,16 +92,17 @@ const Portfolio = () => {
     <section id='home'>
        <div className='container-fluid'>
         <div className='row flr'>
-            <div data-aos="fade-right"  className='col-lg-6 col-md-6 col-12 hometext '><br/><br/><br/><br/><br/>
+            <div data-aos="fade-right" data-aos-duration="1000"  className='col-lg-6 col-md-12 col-12 hometext '><br/><br/><br/><br/><br/>
                 <h1 className='text-center'>HI. I AM <span>MESIYA</span></h1>
                 <h3 className='text-center'>PYTHON FULL-STACT DEVELOPER</h3>
-                <h6  className='text-center'>I am a Full Stack Developer with a focus on both frontend and backend technologies. 
-                    I specialize in creating dynamic and user-friendly applications.I am driven by  a passion for coding
-                    and continuous earning, aiming to contribute effectively to projects and collaborate with skilled teams.</h6><br/>
+                <h6  className='text-center'>Motivated and passionate Full Stack Developer with strong skills in React, Django,
+                   and modern web technologies. Dedicated to delivering efficient, user-friendly applications and continuously learning to
+                    grow in the software development industry.
+                   Seeking to join a dynamic company where I can contribute my technical skills and enthusiasm for technology.</h6><br/>
                     <button  className='but hire'> <Nav.Link href="#contact">HIRE ME</Nav.Link></button> <button className=' more but'><Nav.Link href="#about">MORE INFO</Nav.Link> </button>
             </div>
-            <div className='col-lg-6 col-md-6 col-12'><br/><br/><br/><br/>
-              <img src={joe4} alt="homeimage"  className='img-fluid homeimg'/>
+            <div className='col-lg-6 col-md-12 col-12'><br/><br/><br/><br/>
+              <img src={joe4} alt="homeimage"  className='img-fluid homeimg' data-aos="fade-down" data-aos-duration="1000"/>
 
             </div>
         </div>
@@ -112,21 +114,21 @@ const Portfolio = () => {
 
     <section id='about'>
        <div className='container'>
-        <h1 className='mark text-center subhead'>ABOUT <span>ME</span></h1>
+        <h1 className='mark text-center subhead' data-aos="fade-down" data-aos-duration="1000">ABOUT <span>ME</span></h1>
         <div className='row abme'>
-            <div className='col-lg-6 col-md-6 col-12 abbb'><br/><br/>
-                <img className='img-fluid aboutimg' src={joe} alt='mesiyaa'  /><br/><br/>
-                <h1 className='mes'>MESIYA</h1>
-                <h4 className='fully'>PYTHON FULL-STACK DEVELOPER</h4>
+            <div className='col-lg-6 col-md-12 col-12 abbb'><br/><br/>
+                <img className='img-fluid aboutimg' src={joe} alt='mesiyaa' data-aos="fade-right" data-aos-duration="1000" /><br/><br/>
+                <h1 className='mes' data-aos="fade-right" data-aos-duration="1000">MESIYA</h1>
+                <h4 className='fully'data-aos="fade-left" data-aos-duration="1000">PYTHON FULL-STACK DEVELOPER</h4>
                 
-                <button  className='filly' ><a href={mesiya}download="mesiya_resume" className='adown'>   DOWNLOAD RESUME <FontAwesomeIcon icon={faCircleDown}/> </a></button>
+                <button  className='filly' data-aos="fade-down" data-aos-duration="1000"><a href={mesiya}download="mesiya_resume" className='adown'>   DOWNLOAD RESUME <FontAwesomeIcon icon={faCircleDown}/> </a></button>
                 
             </div>
 
-            <div  data-aos="fade-right" className='col-lg-6 col-md-6 col-12 '><br/>
+            <div   className='col-lg-6 col-md-12 col-12 mooo'><br/>
                 
-                <h1 className='text-center moreab'>MORE ABOUT</h1><br/><br/>
-                <h4 className='text-center' >Technically proficient and driven Full Stack Developer with extensive expertise applications and technologies.
+                <h1 className='text-center moreab' data-aos="fade-left" data-aos-duration="1000">MORE ABOUT</h1><br/><br/>
+                <h4 className='text-center' data-aos="fade-up" data-aos-duration="1000" >Technically proficient and driven Full Stack Developer with extensive expertise applications and technologies.
                      Equipped with knowledge of both front-end and back-end technologies, Eager to use technical know-how and excellent teamwork to
                       contribute to projects in an efficient manner while developing with the company. devoted to lifelong learning and technology
                        adaptation in order to provide effective, high-quality solutions that propel corporate success.</h4><br/>
@@ -134,12 +136,12 @@ const Portfolio = () => {
 
 
             
-            <div data-aos="fade-left" className='row edu'>
-                <h1 className='text-center moreab'> EDUCATION</h1><br/><br/><br/><br/><br/>
-            <div className='col-lg-4 col-md-4 col-12'>
-            <Card style={{ width: '22rem' , height:'14rem',backgroundColor:'teal', border: '2px solid #fff'}} className='morecard'>
+            <div  className='row edu'>
+                <h1 className='text-center moreab' data-aos="zoom-in-down" data-aos-duration="1000"> EDUCATION</h1><br/><br/><br/><br/><br/>
+            <div className='col-lg-4 col-md-6 col-12'>
+            <Card style={{ width: '22rem' , height:'14rem',backgroundColor:'teal', border: '2px solid #fff'}} className='morecard'data-aos="fade-right" data-aos-duration="1000">
             
-            <Card.Body className='cards'>
+            <Card.Body className='cards' >
             <Card.Text className='tit' style={{color: "#fff",fontFamily:'monospace',fontWeight:'900',fontSize:'19px'}} >SSLC <br/>
               Don Bosco Hr.Sec School, <br/>
               Percentage : 66 %, <br/>
@@ -151,10 +153,10 @@ const Portfolio = () => {
             
             </div>
 
-            <div className='col-lg-4 col-md-4 col-12'>
-            <Card style={{ width: '22rem' ,height:'14rem', backgroundColor:'teal', border: '2px solid #fff'}} className='morecard'>
+            <div className='col-lg-4 col-md-6 col-12'>
+            <Card style={{ width: '22rem' ,height:'14rem', backgroundColor:'teal', border: '2px solid #fff'}} className='morecard' data-aos="fade-left" data-aos-duration="1000">
             
-            <Card.Body className='cards'>
+            <Card.Body className='cards' >
             <Card.Text className='tit' style={{color: "#fff",fontFamily:'monospace',fontWeight:'900',fontSize:'19px'}} >HSC <br/>
               Don Bosco Hr.Sec School, <br/>
               Percentage : 77 %, <br/>
@@ -166,10 +168,10 @@ const Portfolio = () => {
             
             </div>
 
-            <div className='col-lg-4 col-md-4 col-12'>
-            <Card style={{ width: '22rem' , height:'14rem' ,backgroundColor:'teal', border: '2px solid #fff'}} className='morecard'>
+            <div className='col-lg-4 col-md-6 col-12'>
+            <Card style={{ width: '22rem' , height:'14rem' ,backgroundColor:'teal', border: '2px solid #fff'}} className='morecard' data-aos="fade-right" data-aos-duration="1000">
             
-            <Card.Body className='cards'>
+            <Card.Body className='cards' >
             <Card.Text className='tit' style={{color: "#fff",fontFamily:'monospace',fontWeight:'900',fontSize:'19px'}} >BACHELOR OF COMPUTER APPLICATION<br/>
               St.Joseph College Of Arts & Sciencs (Autonomous), <br/>
               CGPA : 6.7 , <br/>
@@ -195,11 +197,11 @@ const Portfolio = () => {
     
     <section id='skills'>
       <div className='container'>
-        <h1 className='mark text-center subhead'>MY <span>SKILLS</span></h1>
-        <div data-aos="fade-right" className='row edu'>
-        <h2 className='text-center uni'>Dynamic <span>Web</span> & Software <span>Development</span></h2><br/><br/><br/><br/>
-        <div className='col-lg-6 col-md-6 col-12 cardskill'>
-            <Card style={{ width: '25rem' ,height:'21rem', backgroundColor:'purple', border: '2px solid #00fefc'}} className='skillfi'>
+        <h1 className='mark text-center subhead' data-aos="fade-down" data-aos-duration="1000">MY <span>SKILLS</span></h1>
+        <div className='row edu'>
+        <h2 className='text-center uni' data-aos="fade-up" data-aos-duration="1000">Dynamic <span>Web</span> & Software <span>Development</span></h2><br/><br/><br/><br/>
+        <div className='col-lg-6 col-md-12 col-12 cardskill'>
+            <Card style={{ width: '25rem' ,height:'21rem', backgroundColor:'purple', border: '2px solid #00fefc'}} className='skillfi' data-aos="fade-right" data-aos-duration="1000">
             
             <Card.Body className='cards'>
             <Card.Text className='tit' style={{color: "#fff"}} ><h1 className='text-center'><FontAwesomeIcon icon={faCode} style={{color: "yellow"}}/> </h1><br/>
@@ -213,8 +215,8 @@ const Portfolio = () => {
             </div>
 
 
-            <div className='col-lg-6 col-md-6 col-12'>
-            <Card style={{ width: '25rem' , height:'21rem', backgroundColor:'purple', border: '2px solid #00fefc'}} className='skillfi'>
+            <div className='col-lg-6 col-md-12 col-12'>
+            <Card style={{ width: '25rem' , height:'21rem', backgroundColor:'purple', border: '2px solid #00fefc'}} className='skillfi' data-aos="fade-left" data-aos-duration="1000">
             
             <Card.Body className='cards'>
             <Card.Text className='tit' style={{color: "#fff"}} ><h1 className='text-center'><FontAwesomeIcon icon={faPython} style={{color: "yellow"}}/> </h1><br/>
@@ -227,10 +229,10 @@ const Portfolio = () => {
             
             </div>
        </div><br/><br/>
-       <h2 className='text-center uni'>Tools  & <span>Technology</span></h2><br/><br/>
-   <div data-aos="fade-down" className='row'>
-   <div className='col-lg-3 col-md-3 col-12 '>
-            <Card style={{ width: '18rem' ,height:'16rem', backgroundColor:'black', border: '2px solid #00fefc'}} className='toolskill'>
+       <h2 className='text-center uni' data-aos="fade-down" data-aos-duration="1000">Tools  & <span>Technology</span></h2><br/><br/>
+   <div  className='row'>
+   <div className='col-lg-3 col-md-6 col-12 '>
+            <Card style={{ width: '18rem' ,height:'16rem', backgroundColor:'black', border: '2px solid #00fefc'}} className='toolskill' data-aos="fade-right" data-aos-duration="1000">
             
             <Card.Body className='cards'>
             <Card.Text className='tit' style={{color: "#fff"}} ><h1 className='text-center'><FontAwesomeIcon icon={faCode} style={{color: "yellow"}}/> </h1>
@@ -248,8 +250,8 @@ const Portfolio = () => {
             
             </div>
 
-            <div className='col-lg-3 col-md-3 col-12'>
-            <Card style={{ width: '18rem' ,height:'16rem', backgroundColor:'black', border: '2px solid #00fefc'}} className='toolskill'>
+            <div className='col-lg-3 col-md-6 col-12'>
+            <Card style={{ width: '18rem' ,height:'16rem', backgroundColor:'black', border: '2px solid #00fefc'}} className='toolskill' data-aos="fade-left" data-aos-duration="1000">
             
             <Card.Body className='cards'>
             <Card.Text className='tit' style={{color: "#fff"}} ><h1 className='text-center'><FontAwesomeIcon icon={faServer} style={{color: "yellow"}}/> </h1>
@@ -268,8 +270,8 @@ const Portfolio = () => {
             
             </div>
 
-            <div className='col-lg-3 col-md-3 col-12'>
-            <Card style={{ width: '18rem' , height:'16rem',backgroundColor:'black', border: '2px solid #00fefc'}} className='toolskill'>
+            <div className='col-lg-3 col-md-6 col-12'>
+            <Card style={{ width: '18rem' , height:'16rem',backgroundColor:'black', border: '2px solid #00fefc'}} className='toolskill'data-aos="fade-right" data-aos-duration="1000">
             
             <Card.Body className='cards'>
             <Card.Text className='tit' style={{color: "#fff"}} ><h1 className='text-center'><FontAwesomeIcon icon={faDatabase} style={{color: "yellow"}}/> </h1>
@@ -287,8 +289,8 @@ const Portfolio = () => {
             
             </div>
 
-            <div className='col-lg-3 col-md-3 col-12'>
-            <Card style={{ width: '18rem' ,height:'16rem', backgroundColor:'black', border: '2px solid #00fefc'}} className='toolskill'>
+            <div className='col-lg-3 col-md-6 col-12'>
+            <Card style={{ width: '18rem' ,height:'16rem', backgroundColor:'black', border: '2px solid #00fefc'}} className='toolskill' data-aos="fade-left" data-aos-duration="1000">
             
             <Card.Body className='cards'>
             <Card.Text className='tit' style={{color: "#fff"}} ><h1 className='text-center'><FontAwesomeIcon icon={faGear} style={{color: "yellow"}}/> </h1>
@@ -317,10 +319,10 @@ const Portfolio = () => {
    
     <section id='projects'>
       <div className='container'>
-        <h1 className='mark text-center subhead'>MY <span>PROJECTS</span></h1><br/><br/><br/>
-        <div data-aos="fade-top" className='row'>
-        <div className='col-lg-4 col-md-4 col-12'>
-                <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}} className='adjust'>
+        <h1 className='mark text-center subhead' data-aos="fade-down" data-aos-duration="1000">MY <span>PROJECTS</span></h1><br/><br/><br/>
+        <div  className='row'>
+        <div className='col-lg-4 col-md-6 col-12'>
+                <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}} className='adjust' data-aos="fade-right" data-aos-duration="1000">
                 <Card.Img  className="text-center " variant="top" src={gym} />
                 <Card.Body className='cards' style={{borderTop:"2px solid #00fefc",borderRadius:'3px'}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>LDRAGO FITNESS GYM</Card.Text>
@@ -330,8 +332,8 @@ const Portfolio = () => {
                 </Card>
         </div>
 
-        <div className='col-lg-4 col-md-4 col-12'>
-        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'>
+        <div className='col-lg-4 col-md-6 col-12'>
+        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'data-aos="fade-left" data-aos-duration="1000">
                 <Card.Img  className="text-center " variant="top" src={spices} />
                 <Card.Body className='cards'  style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>ORGANIC MASALA'S WEBSITE</Card.Text>
@@ -340,8 +342,8 @@ const Portfolio = () => {
                 </Card.Body>
                 </Card>
         </div>
-        <div className='col-lg-4 col-md-4 col-12'>
-        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}} className='adjust'>
+        <div className='col-lg-4 col-md-6 col-12'>
+        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}} className='adjust'data-aos="fade-right" data-aos-duration="1000">
                 <Card.Img  className="text-center " variant="top" src={port} />
                 <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>SMILER PORTFOLIO</Card.Text>
@@ -351,8 +353,8 @@ const Portfolio = () => {
                 </Card>
         </div>
 
-        <div className='col-lg-4 col-md-4 col-12'>
-        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}} className='adjust'>
+        <div className='col-lg-4 col-md-6 col-12'>
+        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}} className='adjust'data-aos="fade-left" data-aos-duration="1000">
                 <Card.Img  className="text-center " variant="top" src={todo} />
                 <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>TODO-LIST WEBAPP</Card.Text>
@@ -362,8 +364,8 @@ const Portfolio = () => {
                 </Card>
         </div>
 
-        <div className='col-lg-4 col-md-4 col-12'>
-        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'>
+        <div className='col-lg-4 col-md-6 col-12'>
+        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'data-aos="fade-right" data-aos-duration="1000">
                 <Card.Img  className="text-center " variant="top" src={tube} />
                 <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>YOUTUBE VIDEO DOWNLOADER</Card.Text>
@@ -373,8 +375,8 @@ const Portfolio = () => {
                 </Card>
         </div>
 
-        <div className='col-lg-4 col-md-4 col-12'>
-        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'>
+        <div className='col-lg-4 col-md-6 col-12'>
+        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'data-aos="fade-left" data-aos-duration="1000">
                 <Card.Img  className="text-center " variant="top" src={crud} />
                 <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>CRUD OPERATIONS</Card.Text>
@@ -385,8 +387,8 @@ const Portfolio = () => {
         </div>
 
 
-        <div className='col-lg-4 col-md-4 col-12'>
-        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'>
+        <div className='col-lg-4 col-md-6 col-12'>
+        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'data-aos="fade-right" data-aos-duration="1000">
                 <Card.Img  className="text-center " variant="top" src={bmi} />
                 <Card.Body className='cards' style={{borderTop:"2px solid #00fefc"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>BMI VALUE CALCULATION</Card.Text>
@@ -398,13 +400,24 @@ const Portfolio = () => {
 
 
 
-        <div className='col-lg-4 col-md-4 col-12'>
-        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'>
+        <div className='col-lg-4 col-md-6 col-12'>
+        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'data-aos="fade-left" data-aos-duration="1000">
                 <Card.Img  className="text-center " variant="top" src={weather} />
                 <Card.Body className='cards' style={{borderTop:"1px solid #00fefc",borderRadius:'2px'}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>CURRENT WEATHER FINDER</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-JAVASCRIPT</Card.Title>
                 <button className='btnweb web22'> <a href="https://weather-seven-orcin.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/weather"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                </Card.Body>
+                </Card>
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-12'>
+        <Card style={{ width: '24rem' ,height:'22rem', backgroundColor:'black', border: '2px solid #00fefc',boxShadow:'1px 0px 7px 1px rgba(0,254,252,0.9)'}}className='adjust'data-aos="fade-right" data-aos-duration="1000">
+                <Card.Img  className="text-center " variant="top" src={studio} />
+                <Card.Body className='cards' style={{borderTop:"1px solid #00fefc",borderRadius:'2px'}}>
+                <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>TYSON STUDIO </Card.Text>
+                <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "green",fontSize:'8px',paddingBottom:'5px'}} /> REACT-HTML-CSS-BOOTSTRAP-DJANGO RESTFRAMEWORK-MYSQL</Card.Title>
+                <button className='btnweb web22'> <a href="https://tysonstudio.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/Tysonstudio"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -419,7 +432,7 @@ const Portfolio = () => {
    
     <section id='contact'>
       <div className="container-fluid">
-      <h1 className='mark text-center subhead'>CONTACT <span>US</span></h1>
+      <h1 className='mark text-center subhead' data-aos="fade-down" data-aos-duration="1000">CONTACT <span>US</span></h1>
         <div  className="row condiv">
           <div  data-aos="fade-right" className='col-lg-6 col-md-6 col-12 con1'>
            <h3 className='text-center' >Get in Touch Us</h3>
@@ -453,8 +466,8 @@ const Portfolio = () => {
     </div>
       
         <div className='row'>
-        <div className='col-lg-12 col-md-12 col-12 footer'>
-            <h5 className='text-center'>Thank You For Visiting <FontAwesomeIcon icon={faHeart} style={{color: "red"}} />. </h5>
+        <div className='col-lg-12 col-md-12 col-12 footer' >
+            <h5 className='text-center' >Thank You For Visiting <FontAwesomeIcon icon={faHeart} style={{color: "red"}} />. </h5>
 
           </div>
         </div>
