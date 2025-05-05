@@ -601,7 +601,7 @@ color: #00fefc !important;
     .homeimg{
         height: 400px !important;
         width: 400px !important;
-        margin-left: 220px !important;
+        margin-left: 280px !important;
         margin-top: 50px !important;
     }
     .fully{
@@ -613,7 +613,7 @@ color: #00fefc !important;
         margin: 10px 190px !important;
     }
     .butt{
-        margin: 0px 150px !important;
+        margin: 0px 220px !important;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 839px){
