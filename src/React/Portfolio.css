@@ -571,7 +571,52 @@ color: #00fefc !important;
     
 }
 }
-@media screen and (min-width: 769px) and (max-width: 1023px){
+@media screen and (min-width: 840px) and (max-width: 991px){
+    .flr{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+    .morecard{
+        width: 16rem !important;
+        margin: 20px 0px !important;
+        height: 19rem !important;
+    }
+    .skillfi{
+        width: 24rem !important;
+        height: 23rem !important;
+        margin: 20px 150px !important;
+    }
+    .toolskill{
+        width: 17rem !important;
+        margin: 20px 0px !important;
+        height: 19rem !important;
+    }
+    
+    .aboutimg{
+        margin: 0px 120px !important;
+    }
+    .mes{
+        margin: 20px 270px !important;
+    }
+    .homeimg{
+        height: 400px !important;
+        width: 400px !important;
+        margin-left: 220px !important;
+        margin-top: 50px !important;
+    }
+    .fully{
+        margin: 10px 170px !important;
+        font-size:large !important;
+        font-weight: 900;
+    }
+    .filly{
+        margin: 10px 190px !important;
+    }
+    .butt{
+        margin: 0px 150px !important;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 839px){
     .homeimg{
         height: 400px !important;
         width: 440px !important;
@@ -954,9 +999,12 @@ color: #00fefc !important;
     .con1 h4{
         width: 230px !important;
     }
+    .portwidth{
+        overflow: hidden !important;
+    }
 
  }
- @media screen and (min-width: 320px) and (max-width: 399px){
+ @media screen and (min-width: 367px) and (max-width: 399px){
     .homeimg{
         margin-left: 20px !important;
         width: 300px !important;
@@ -999,5 +1047,62 @@ color: #00fefc !important;
     }
     .con1{
         width: 500px !important;
+    }
+    .portwidth{
+        overflow: hidden !important;
+    }
+ }
+ @media screen and (min-width: 320px) and (max-width: 366px){
+    .homeimg{
+        margin-left: 20px !important;
+        width: 290px !important;
+    }
+    .but{
+        margin: 0px 0px !important;
+    }
+    .butt{
+        margin: 0px 40px !important;
+        
+    }
+    .aboutimg{
+        width: 290px !important;
+        margin: 0px 20px !important;
+    }
+    .mes{
+        margin: 10px 120px !important;
+    }
+    .fully{
+        font-size: 14px !important;
+        margin: 20px 50px !important;
+    }
+    .filly{
+        margin: 20px 40px !important;
+    }
+    .morecard{
+        margin: 30px 30px !important;
+        width: 17rem !important;
+    }
+    .skillfi{
+        margin: 20px 10px !important;
+        width: 19rem !important;
+        height: 22rem !important;
+    }
+    .toolskill{
+        margin: 30px 30px !important;
+    }
+    .adjust{
+        margin: 20px 10px !important;
+        width: 18rem !important;
+    }
+    .con1 h4{
+        width: 200px !important;
+        padding: 10px 15px !important;
+        margin: 20px 10px !important;
+    }
+    .con1{
+        width: 500px !important;
+    }
+    .portwidth{
+        overflow: hidden !important;
     }
  }
