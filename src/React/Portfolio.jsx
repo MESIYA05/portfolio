@@ -438,7 +438,7 @@ const Portfolio = () => {
            <h3 className='text-center' >Get in Touch Us</h3>
            <h4><a href="mailto:mesiya2002samy@gmail.com"><FontAwesomeIcon icon={faEnvelope} style={{color:'#fff',fontSize:'30PX'}} />  EMAIL</a></h4>
            <h4><a href="tel:9361726533"><FontAwesomeIcon icon={faPhone} style={{color:'#fff',fontSize:'30PX'}}  /> +919361726533</a></h4>
-           <h4><a href="https://www.instagram.com/dark_shadow_boy_05/profilecard/?igsh=dGpidjVvcHkyYzFh"><FontAwesomeIcon icon={faInstagram}style={{color:'#fff',borderRadius:'8px',fontSize:'30PX'}}  /> INSTAGRAM</a></h4>
+           <h4><a href="https://www.instagram.com/darkness_shadow_boy_05?igsh=ZG5zYTd5bGxsMXZq"><FontAwesomeIcon icon={faInstagram}style={{color:'#fff',borderRadius:'8px',fontSize:'30PX'}}  /> INSTAGRAM</a></h4>
            <h4><a href="https://github.com/MESIYA05"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'30PX'}}  />    GitHub </a> </h4>
            <h4><a href="https://www.linkedin.com/in/mesiya"><FontAwesomeIcon icon={faLinkedin} style={{color:'#fff',fontSize:'30PX'}} /> LINKEDIN</a></h4>
            <h4><a href="http://wa.me/+919361726533"><FontAwesomeIcon icon={faWhatsapp} style={{color:'darkgreen',fontSize:'30PX'}} />  WHATSAPP</a></h4>

@@ -118,16 +118,26 @@ body{
     border-radius: 8px !important;
    
 }
+
 .hire{
     margin-left: 250px !important;
 }
-.hire, .more{
+.hire{
 color: #fff !important;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 padding: 0px 8px !important;
 font-family: 900;
 font-size: 20px; 
 box-shadow: 1px 0px 10px 4px rgb(90, 2, 75);   
+}
+.more{
+    color: #fff !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 8px !important;
+    font-family: 900;
+    font-size: 20px; 
+    box-shadow: 1px 0px 10px 4px rgb(90, 2, 75); 
+    /* margin-left: 10px !important;   */
 }
 .hire:hover, .more:hover{
     box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
@@ -1104,5 +1114,8 @@ color: #00fefc !important;
     }
     .portwidth{
         overflow: hidden !important;
+    }
+    .more{
+        padding-left: 8px !important;
     }
  }
