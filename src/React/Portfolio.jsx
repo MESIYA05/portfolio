@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Card from 'react-bootstrap/Card';
 import {faCircleDown,faCode,faCircle,faServer,faDatabase,faGear,faLink,faEnvelope,faPhone,faHeart,faCircleArrowUp} from '@fortawesome/free-solid-svg-icons';
 import {faPython,faGithub,faInstagram,faLinkedin,faWhatsapp} from '@fortawesome/free-brands-svg-icons';
-import mesiya from '../ASSETS/Mesiya_FullStack_Resume.pdf';
+import mesiya from '../ASSETS/Mesiya_FullStack_Resume1.pdf';
 import bmi from '../ASSETS/bmi.png';
 import crud from '../ASSETS/crud.png';
 import gym from '../ASSETS/gym.png';
@@ -18,7 +18,7 @@ import tube from '../ASSETS/tube.png';
 import studio from '../ASSETS/studio.png';
 import weather from '../ASSETS/weather.png';
 import joe from '../ASSETS/joe.jpg';
-import joe4 from '../ASSETS/joe4.jpg';
+import joe4 from '../ASSETS/me1.JPG';
 import emailjs from '@emailjs/browser';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -99,7 +99,7 @@ const Portfolio = () => {
                    and modern web technologies. Dedicated to delivering efficient, user-friendly applications and continuously learning to
                     grow in the software development industry.
                    Seeking to join a dynamic company where I can contribute my technical skills and enthusiasm for technology.</h6><br/>
-                   <div className="butt"> <button  className='but hire'> <Nav.Link href="#contact">HIRE ME</Nav.Link></button> <button className=' more but'><Nav.Link href="#about">MORE INFO</Nav.Link> </button></div>
+                   <div className="butt"> <button  className='but hire'> <Nav.Link href="#contact">HIRE ME</Nav.Link></button> &nbsp;&nbsp; <button className=' more but'><Nav.Link href="#about">MORE INFO</Nav.Link> </button></div>
             </div>
             <div className='col-lg-6 col-md-12 col-12'><br/><br/><br/><br/>
               <img src={joe4} alt="homeimage"  className='img-fluid homeimg' data-aos="fade-down" data-aos-duration="1000"/>
