@@ -1052,6 +1052,8 @@ color: #00fefc !important;
         width: 20rem !important;
         height: 22rem !important;
     }
+    
+   
     .toolskill{
         margin: 30px 30px !important;
     }
@@ -1104,8 +1106,17 @@ color: #00fefc !important;
     .skillfi{
         margin: 20px 10px !important;
         width: 19rem !important;
-        height: 22rem !important;
+        height: 23rem !important;
     }
+    .abtab{
+        margin-top: 30px !important;
+    }
+    .hometext h3{
+        font-weight: 600 !important;
+        /* font-family: 'Times New Roman', Times, serif !important; */
+        font-size: medium !important;
+    }
+    f
     .toolskill{
         margin: 30px 30px !important;
     }

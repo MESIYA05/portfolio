@@ -94,7 +94,7 @@ const Portfolio = () => {
         <div className='row flr'>
             <div data-aos="fade-right" data-aos-duration="1000"  className='col-lg-6 col-md-12 col-12 hometext '><br/><br/><br/><br/><br/>
                 <h1 className='text-center'>HI. I AM <span>MESIYA</span></h1>
-                <h3 className='text-center'>PYTHON FULL-STACT DEVELOPER</h3>
+                <h3 className='text-center introhead'>PYTHON FULL-STACT DEVELOPER</h3>
                 <h6  className='text-center'>Motivated and passionate Full Stack Developer with strong skills in React, Django,
                    and modern web technologies. Dedicated to delivering efficient, user-friendly applications and continuously learning to
                     grow in the software development industry.
@@ -114,7 +114,7 @@ const Portfolio = () => {
 
     <section id='about'>
        <div className='container'>
-        <h1 className='mark text-center subhead' data-aos="fade-down" data-aos-duration="1000">ABOUT <span>ME</span></h1>
+        <h1 className='mark text-center subhead abtab' data-aos="fade-down" data-aos-duration="1000">ABOUT <span>ME</span></h1>
         <div className='row abme'>
             <div className='col-lg-6 col-md-12 col-12 abbb'><br/><br/>
                 <img className='img-fluid aboutimg' src={joe} alt='mesiyaa' data-aos="fade-right" data-aos-duration="1000" /><br/><br/>
