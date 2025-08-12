@@ -94,7 +94,7 @@ const Portfolio = () => {
         <div className='row flr'>
             <div data-aos="fade-right" data-aos-duration="1000"  className='col-lg-6 col-md-12 col-12 hometext '><br/><br/><br/><br/><br/>
                 <h1 className='text-center'>HI. I AM <span>MESIYA</span></h1>
-                <h3 className='text-center introhead'>PYTHON FULL-STACT DEVELOPER</h3>
+                <h3 className='text-center introhead'>PYTHON FULL-STACK DEVELOPER</h3>
                 <h6  className='text-center'>Motivated and passionate Full Stack Developer with strong skills in React, Django,
                    and modern web technologies. Dedicated to delivering efficient, user-friendly applications and continuously learning to
                     grow in the software development industry.
