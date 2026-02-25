@@ -17,7 +17,7 @@ import todo from '../ASSETS/todo.png';
 import tube from '../ASSETS/tube.png';
 import studio from '../ASSETS/studio.png';
 import weather from '../ASSETS/weather.png';
-import joe from '../ASSETS/joe.jpg';
+
 import joe4 from '../ASSETS/me1.JPG';
 import emailjs from '@emailjs/browser';
 
@@ -27,6 +27,23 @@ import 'aos/dist/aos.css'
 
 
 const Portfolio = () => {
+
+
+  const roles = [
+    "Frontend Developer",
+    "React Developer",
+    "Full Stack Enthusiast"
+  ];
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % roles.length);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, [roles.length]);
   useEffect (() => {
     AOS.init({})
   },[])
@@ -72,7 +89,7 @@ const Portfolio = () => {
   return (
     <>
        <div className='portwidth'>
-      <Navbar expand="lg"  className="  navba" >
+      <Navbar expand="lg"  className="  navba navbar" >
       <Container >
         <Navbar.Brand href="#home" className='pot'>PORTFOLIO</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
@@ -89,20 +106,45 @@ const Portfolio = () => {
       </Container>
     </Navbar>
    
-    <section id='home'>
+    <section id='home' className='hero'>
        <div className='container-fluid'>
         <div className='row flr'>
             <div data-aos="fade-right" data-aos-duration="1000"  className='col-lg-6 col-md-12 col-12 hometext '><br/><br/><br/><br/><br/>
-                <h1 className='text-center'>HI. I AM <span>MESIYA</span></h1>
+                {/* <h1 className='text-center'>HI. I AM <span>MESIYA</span></h1>
                 <h3 className='text-center introhead'>PYTHON FULL-STACK DEVELOPER</h3>
                 <h6  className='text-center'>Motivated and passionate Full Stack Developer with strong skills in React, Django,
                    and modern web technologies. Dedicated to delivering efficient, user-friendly applications and continuously learning to
                     grow in the software development industry.
                    Seeking to join a dynamic company where I can contribute my technical skills and enthusiasm for technology.</h6><br/>
-                   <div className="butt"> <button  className='but hire'> <Nav.Link href="#contact">HIRE ME</Nav.Link></button> &nbsp;&nbsp; <button className=' more but'><Nav.Link href="#about">MORE INFO</Nav.Link> </button></div>
+                  <div class="hero-buttons">
+    <a href="#contact" class="btn primary-btn">Hire Me</a>
+    <a href="#about" class="btn secondary-btn">More Info</a>
+</div> */}
+
+  <div className="hero-content">
+
+    <h4 className="intro text-center">Hello, I'm <span className="name">Mesiya</span></h4>
+
+    
+
+   <div className="typings"> <h2 className="typing text-center">I'm a <span className='typings'>{roles[index]}</span> </h2></div>
+
+    <p className="hero-description">
+      I design and develop modern, high-performance web applications
+      with clean UI, scalable backend systems, and seamless user experience.
+    </p>
+
+    <div className="hero-buttons">
+      <a href="#contact" className="btn primary-btn">Hire Me</a>
+      <a href={mesiya} download="mesiya_resume" className="btn secondary-btns"  data-aos="fade-down" data-aos-duration="1000">  DOWNLOAD RESUME  <FontAwesomeIcon  icon={faCircleDown} style={{color:"#ff00a6"}}/> </a>
+    </div>
+
+  </div>
+
+
             </div>
             <div className='col-lg-6 col-md-12 col-12'><br/><br/><br/><br/>
-              <img src={joe4} alt="homeimage"  className='img-fluid homeimg' data-aos="fade-down" data-aos-duration="1000"/>
+              <img src={joe4} alt="homeimage"  className='img-fluid homeimg hero-image' data-aos="fade-down" data-aos-duration="1000"/>
 
             </div>
         </div>
@@ -116,18 +158,18 @@ const Portfolio = () => {
        <div className='container'>
         <h1 className='mark text-center subhead abtab' data-aos="fade-down" data-aos-duration="1000">ABOUT <span>ME</span></h1>
         <div className='row abme'>
-            <div className='col-lg-6 col-md-12 col-12 abbb'><br/><br/>
+            {/* <div className='col-lg-6 col-md-12 col-12 abbb'><br/><br/>
                 <img className='img-fluid aboutimg' src={joe} alt='mesiyaa' data-aos="fade-right" data-aos-duration="1000" /><br/><br/>
                 <h1 className='mes' data-aos="fade-right" data-aos-duration="1000">MESIYA</h1>
                 <h4 className='fully'data-aos="fade-left" data-aos-duration="1000">PYTHON FULL-STACK DEVELOPER</h4>
                 
                 <button  className='filly' data-aos="fade-down" data-aos-duration="1000"><a href={mesiya}download="mesiya_resume" className='adown'>   DOWNLOAD RESUME <FontAwesomeIcon icon={faCircleDown}/> </a></button>
                 
-            </div>
+            </div> */}
 
-            <div   className='col-lg-6 col-md-12 col-12 mooo'><br/>
+            <div   className='col-lg-12 col-md-12 col-12 mooo'><br/>
                 
-                <h1 className='text-center moreab' data-aos="fade-left" data-aos-duration="1000">MORE ABOUT</h1><br/><br/>
+                {/* <h1 className='text-center moreab' data-aos="fade-left" data-aos-duration="1000">MORE ABOUT</h1><br/><br/> */}
                 <h4 className='text-center' data-aos="fade-up" data-aos-duration="1000" >Technically proficient and driven Full Stack Developer with extensive expertise applications and technologies.
                      Equipped with knowledge of both front-end and back-end technologies, Eager to use technical know-how and excellent teamwork to
                       contribute to projects in an efficient manner while developing with the company. devoted to lifelong learning and technology
