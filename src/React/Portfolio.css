@@ -595,7 +595,7 @@ color: #00fefc !important;
     box-shadow: 1px 0px 7px 1px #d40875 !important;
 }
 .con1{
-   border: none !important;
+   border: 2px solid #d40875 !important;
     border-radius: 20px !important;
     box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9) !important;
     -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9) !important;
@@ -1000,7 +1000,7 @@ color: #00fefc !important;
         margin-top: 40px !important;
     }
     .con1{
-        border: 2px solid #00fefc !important;
+        border: 2px solid #d40875 !important;
         border-radius: 20px !important;
         box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
         -webkit-box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
@@ -1014,7 +1014,7 @@ color: #00fefc !important;
         margin: 20px 70px !important;
     }
     .con2{
-        border: 2px solid #00fefc !important;
+      border: 2px solid #d40875 !important;
         border-radius: 20px !important;
         box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
         -webkit-box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
@@ -1102,7 +1102,7 @@ color: #00fefc !important;
         margin: 10px 40px !important;
     }
     .con1 h4{
-        border: 3px solid #39ff14 !important;
+        border: 3px solid #39ff14 ;
         border-radius: 20px !important;
        
         padding: 5px 30px !important;
@@ -1160,6 +1160,12 @@ color: #00fefc !important;
         margin: 20px 20px !important;
         padding: 2px 20px !important;
     }
+    .con1{
+        border: 2px solid #d40875 !important;
+    }
+    .con2{
+        border: 2px solid #d40875 !important;
+    }
     .me-auto {
        
        margin: 20px 0px !important;
@@ -1209,10 +1215,12 @@ color: #00fefc !important;
    .con1{
     width: 22rem !important;
     margin: 10px 0px !important;
+    border: 2px solid #d40875 !important;
     
    }
    .con2{
     width: 22rem !important;
+    border: 2px solid #d40875 !important;
    }
    .condiv{
     margin: 10px 50px !important;
@@ -1329,6 +1337,12 @@ color: #00fefc !important;
     .portwidth{
         overflow: hidden !important;
     }
+    .con1{
+         border: 2px solid #d40875 !important;
+    }
+    .con2{
+         border: 2px solid #d40875 !important;
+    }
 
  }
  @media screen and (min-width: 367px) and (max-width: 399px){
@@ -1381,6 +1395,10 @@ color: #00fefc !important;
     }
     .con1{
         width: 500px !important;
+        border: 2px solid #d40875 !important;
+    }
+    .con2{
+         border: 2px solid #d40875 !important;
     }
     .portwidth{
         overflow: hidden !important;
@@ -1444,6 +1462,10 @@ color: #00fefc !important;
     }
     .con1{
         width: 500px !important;
+         border: 2px solid #d40875 !important;
+    }
+    .con2{
+         border: 2px solid #d40875 !important;
     }
     .portwidth{
         overflow: hidden !important;
