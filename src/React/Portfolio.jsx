@@ -136,8 +136,8 @@ const Portfolio = () => {
     </p>
 
     <div className="hero-buttons">
-      <a href="#contact" className="btn primary-btn">Hire Me</a>
-      <a href={mesiya} download="mesiya_resume" className="btn secondary-btns"  data-aos="fade-down" data-aos-duration="1000">  DOWNLOAD RESUME  <FontAwesomeIcon  icon={faCircleDown} style={{color:"#ff00a6"}}/> </a>
+      <a href="#contact" className="btn primary-btn"  data-aos="fade-rightt" data-aos-duration="1000">Hire Me</a>
+      <a href={mesiya} download="mesiya_resume" className="btn secondary-btns"  data-aos="fade-left" data-aos-duration="1000">  DOWNLOAD RESUME  <FontAwesomeIcon  icon={faCircleDown} style={{color:"#ff00a6"}}/> </a>
     </div>
 
   </div>
