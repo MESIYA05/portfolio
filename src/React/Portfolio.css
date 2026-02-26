@@ -597,9 +597,9 @@ color: #00fefc !important;
 .con1{
     border: 2px solid #d40875 !important;
     border-radius: 20px !important;
-    box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9);
-    -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9);
-    -moz-box-shadow: 1px 0px 20px 8px rgba(190, 0, 159, 0.9);
+    box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9) !important;
+    -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9) !important;
+    -moz-box-shadow: 1px 0px 20px 8px rgba(190, 0, 159, 0.9) !important;
     width: 40% !important;
    
     
@@ -643,9 +643,9 @@ color: #00fefc !important;
 .con2{
     border: 2px solid #d40875 !important;
     border-radius: 20px !important;
-    box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9);
-    -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9);
-    -moz-box-shadow: 1px 0px 20px 8px rgba(190, 0, 159, 0.9);
+    box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9) !important;
+    -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9) !important;
+    -moz-box-shadow: 1px 0px 20px 8px rgba(190, 0, 159, 0.9) !important;
     width: 40% !important;
 }
 .con2 input,textarea{
@@ -657,7 +657,7 @@ color: #00fefc !important;
     list-style: none !important;
     padding: 5px 15px !important;
     margin: 20px 40px !important;
-    box-shadow: 1px 0px 5px 5px #d40875;
+    box-shadow: 1px 0px 5px 5px #d40875 ;
     border-radius: 8px;
     width: 80% !important;
 }
