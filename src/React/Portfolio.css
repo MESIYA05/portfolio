@@ -595,7 +595,7 @@ color: #00fefc !important;
     box-shadow: 1px 0px 7px 1px #d40875 !important;
 }
 .con1{
-   border: 2px solid #d40875 !important;
+   border: none !important;
     border-radius: 20px !important;
     box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9) !important;
     -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9) !important;
@@ -641,7 +641,7 @@ color: #00fefc !important;
     
 }
 .con2{
-    border: 2px solid #d40875 !important;
+    border: none !important;
     border-radius: 20px !important;
     box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9) !important;
     -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9) !important;
