@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Card from 'react-bootstrap/Card';
 import {faCircleDown,faCode,faCircle,faServer,faDatabase,faGear,faLink,faEnvelope,faPhone,faHeart,faCircleArrowUp} from '@fortawesome/free-solid-svg-icons';
 import {faPython,faGithub,faInstagram,faLinkedin,faWhatsapp} from '@fortawesome/free-brands-svg-icons';
-import mesiya from '../ASSETS/Mesiya_FullStack_Resume1.pdf';
+import mesiya from '../ASSETS/MESIYA_FULLSTACK_RESUME.pdf';
 import bmi from '../ASSETS/bmi.png';
 import crud from '../ASSETS/crud.png';
 import gym from '../ASSETS/gym.png';
@@ -183,7 +183,7 @@ const Portfolio = () => {
             <div  className='row edu'>
                 <h1 className='text-center moreab' data-aos="zoom-in-down" data-aos-duration="1000"> EDUCATION</h1><br/><br/><br/><br/><br/>
             <div className='col-lg-4 col-md-6 col-12'>
-            <Card style={{ width: '22rem' , height:'14rem',border: '2px solid #c20e6b'}} className='morecard'data-aos="fade-right" data-aos-duration="1000">
+            <Card style={{ width: '22rem' , height:'14rem',border: '1px solid #ffff00'}} className='morecard'data-aos="fade-right" data-aos-duration="1000">
             
             <Card.Body className='cards' >
             <Card.Text className='tit'  >SSLC <br/> <br />
@@ -198,7 +198,7 @@ const Portfolio = () => {
             </div>
 
             <div className='col-lg-4 col-md-6 col-12'>
-            <Card style={{ width: '22rem' ,height:'14rem',  border: '2px solid #c20e6b'}} className='morecard' data-aos="fade-left" data-aos-duration="1000">
+            <Card style={{ width: '22rem' ,height:'14rem',  border: '1px solid #ffff00'}} className='morecard' data-aos="fade-left" data-aos-duration="1000">
             
             <Card.Body className='cards' >
             <Card.Text className='tit'  >HSC <br/> <br />
@@ -213,7 +213,7 @@ const Portfolio = () => {
             </div>
 
             <div className='col-lg-4 col-md-6 col-12'>
-            <Card style={{ width: '22rem' , height:'14rem' , border: '2px solid #c20e6b'}} className='morecard' data-aos="fade-right" data-aos-duration="1000">
+            <Card style={{ width: '22rem' , height:'14rem' , border: '1px solid #ffff00'}} className='morecard' data-aos="fade-right" data-aos-duration="1000">
             
             <Card.Body className='cards' >
             <Card.Text className='tit'  >BACHELOR OF COMPUTER APPLICATION<br/>
@@ -372,7 +372,7 @@ const Portfolio = () => {
                 <Card.Body className='cards' style={{borderTop:"2px solid #d40e8c",borderRadius:'3px'}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>LDRAGO FITNESS GYM</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-REACT JS-EMAIL JS</Card.Title>
-                <button className='btnweb web22'> <a href="https://gym-mesiyas-projects-6f56510b.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/Gym"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                <button className='btnweb web22'> <a href="https://gym-mesiyas-projects-6f56510b.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Live Demo </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/Gym"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    View Code </a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -383,7 +383,7 @@ const Portfolio = () => {
                 <Card.Body className='cards'  style={{borderTop:"2px solid #d40e8c"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>ORGANIC MASALA'S WEBSITE</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP</Card.Title><br/>
-                <button className='btnweb web22'> <a href="https://organic-spicey-masala.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/Organic-spicey-masala"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                <button className='btnweb web22'> <a href="https://organic-spicey-masala.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Live Demo </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/Organic-spicey-masala"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />   View Code </a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -393,7 +393,7 @@ const Portfolio = () => {
                 <Card.Body className='cards' style={{borderTop:"2px solid #d40e8c"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>SMILER PORTFOLIO</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-JAVASCRIPT</Card.Title><br/>
-                <button className='web24'><a href="https://github.com/MESIYA05"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                <button className='web24'><a href="https://github.com/MESIYA05"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />   View Code</a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -404,7 +404,7 @@ const Portfolio = () => {
                 <Card.Body className='cards' style={{borderTop:"2px solid #d40e8c"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>TODO-LIST WEBAPP</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-JAVASCRIPT-LOCAL HOST</Card.Title>
-                <button className='btnweb web22'> <a href="https://todoapp-liart-eight.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/todoapp"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                <button className='btnweb web22'> <a href="https://todoapp-liart-eight.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Live Demo </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/todoapp"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />   View Code </a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -415,7 +415,7 @@ const Portfolio = () => {
                 <Card.Body className='cards' style={{borderTop:"2px solid #d40e8c"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>YOUTUBE VIDEO DOWNLOADER</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-DJANGO FRAMEWORK</Card.Title><br/>
-                <button className='web24'><a href="https://github.com/MESIYA05/utube-vd-downloader"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                <button className='web24'><a href="https://github.com/MESIYA05/utube-vd-downloader"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    View Code</a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -426,7 +426,7 @@ const Portfolio = () => {
                 <Card.Body className='cards' style={{borderTop:"2px solid #d40e8c"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>CRUD OPERATIONS</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-DJANGO FRAMEWORK-MY SQL</Card.Title>
-                <button className='web24'><a href="https://github.com/MESIYA05/crud-operations"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                <button className='web24'><a href="https://github.com/MESIYA05/crud-operations"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />   View Code </a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -438,7 +438,7 @@ const Portfolio = () => {
                 <Card.Body className='cards' style={{borderTop:"2px solid #d40e8c"}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>BMI VALUE CALCULATION</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-REACT JS</Card.Title><br/>
-                <button className='btnweb web22'> <a href="https://calculatebmivalue.netlify.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/CalculateBmiValue"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                <button className='btnweb web22'> <a href="https://calculatebmivalue.netlify.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Live Demo </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/CalculateBmiValue"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    View Code </a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -451,7 +451,7 @@ const Portfolio = () => {
                 <Card.Body className='cards' style={{borderTop:"1px solid #d40e8c",borderRadius:'2px'}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>CURRENT WEATHER FINDER</Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> HTML-CSS-BOOTSTRAP-JAVASCRIPT</Card.Title>
-                <button className='btnweb web22'> <a href="https://weather-seven-orcin.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Website </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/weather"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    GitHub </a> </button>
+                <button className='btnweb web22'> <a href="https://weather-seven-orcin.vercel.app/"><FontAwesomeIcon icon={faLink} style={{color:'aqua'}}  /> Live Demo </a></button><button className='btnweb web23'><a href="https://github.com/MESIYA05/weather"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />    View Code </a> </button>
                 </Card.Body>
                 </Card>
         </div>
@@ -462,7 +462,7 @@ const Portfolio = () => {
                 <Card.Body className='cards' style={{borderTop:"1px solid #d40e8c",borderRadius:'2px'}}>
                 <Card.Text className='text-center' style={{color:'#fff',fontFamily:'bold',fontWeight:'900'}}>TYSON STUDIO </Card.Text>
                 <Card.Title className=' text-center tit' style={{color: "#fff"}} ><FontAwesomeIcon icon={faCircle} style={{color: "brown",fontSize:'8px',paddingBottom:'5px'}} /> REACT-BOOTSTRAP-DJANGO RESTFRAMEWORK-MYSQL</Card.Title>
-                <button className='btnweb web24'><a href="https://github.com/MESIYA05/Tysonstudio"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />   GitHub </a> </button>
+                <button className='btnweb web24'><a href="https://github.com/MESIYA05/Tysonstudio"> <FontAwesomeIcon icon={faGithub} style={{color:'#fff',backgroundColor:'black',borderRadius:'50%',fontSize:'19px'}}  />  View Code </a> </button>
                 </Card.Body>
                 </Card>
         </div>

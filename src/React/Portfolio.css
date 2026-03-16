@@ -10,6 +10,7 @@ body{
 }
 html, body {
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
 }
 
@@ -19,9 +20,9 @@ img {
   display: block;
 }
 
-#home{
+/* #home{
     height: 100vh !important;
-}
+} */
 
 .pot{
     color: rgb(239, 239, 239) !important;
@@ -471,7 +472,9 @@ color: #00fefc !important;
 }
 .morecard{
     margin: 0px 20px !important;
-    border-left:5px solid #ffff00 !important;
+    
+    border-left:6px solid #ffff00 !important;
+  
     border-bottom-left-radius: 30px !important;
     border-top-right-radius: 30px !important;
      border-bottom-right-radius: 30px !important;
@@ -482,7 +485,7 @@ color: #00fefc !important;
    background-color: rgb(6, 85, 65) !important;
    transform: scale(1.1) !important;
    border: 2px solid #FFFFFF !important;
-    border-left:5px solid #0eb0d5 !important;
+    border-left:6px solid #0eb0d5 !important;
   
    
 }
