@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Card from 'react-bootstrap/Card';
 import {faCircleDown,faCode,faCircle,faServer,faDatabase,faGear,faLink,faEnvelope,faPhone,faHeart,faCircleArrowUp} from '@fortawesome/free-solid-svg-icons';
 import {faPython,faGithub,faInstagram,faLinkedin,faWhatsapp} from '@fortawesome/free-brands-svg-icons';
-import mesiya from '../ASSETS/MESIYA_FULLSTACK_RESUME.pdf';
+import mesiya from '../ASSETS/Fullstack_Resume.pdf';
 import bmi from '../ASSETS/bmi.png';
 import crud from '../ASSETS/crud.png';
 import gym from '../ASSETS/gym.png';
