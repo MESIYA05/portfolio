@@ -1456,7 +1456,7 @@ border: 0px solid #d40875;
    .me-auto{
     gap: 20px !important;
    }
-   .con1{
-    font-size: 15px !important;
+   .con1 h4{
+    font-size: 14px !important;
    }
 }
