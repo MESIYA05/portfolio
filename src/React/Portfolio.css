@@ -1438,6 +1438,11 @@ border: 0px solid #d40875;
     margin-right: auto;
   }
   .morecard{
-    margin-top: 20px !important;
+    margin-top: 35px !important;
+  }
+  .skillfi{
+    margin-top: 35px !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
 }
