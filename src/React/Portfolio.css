@@ -1432,8 +1432,8 @@ border: 0px solid #d40875;
     flex-wrap: wrap;
     flex-direction: column-reverse !important;
   }
-  .hero-image{
-    margin-left: 50px !important;
+  .homeimg{
+    margin-left: 70px !important;
   }
   .morecard{
     margin-top: 35px !important;
@@ -1446,10 +1446,11 @@ border: 0px solid #d40875;
         margin: 35px 50px !important;
     }
     .me-auto a{
-    width: 99% !important;
+    width: 90% !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
     font-weight: bold !important;
-    font-size: 17px !important;
+    font-size: 15px !important;
     color: #fff !important;
+    gap: 20px !important;
    }
 }
