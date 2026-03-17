@@ -1433,7 +1433,7 @@ border: 0px solid #d40875;
     flex-direction: column-reverse !important;
   }
   .homeimg{
-    margin-left: 150px !important;
+    margin-left: 170px !important;
   }
   .morecard{
     margin-top: 35px !important;
@@ -1451,9 +1451,9 @@ border: 0px solid #d40875;
     font-weight: bold !important;
     font-size: 15px !important;
     color: #fff !important;
-    gap: 10px !important;
+    gap: 20px !important;
    }
    .me-auto{
-    gap: 10px !important;
+    gap: 20px !important;
    }
 }
