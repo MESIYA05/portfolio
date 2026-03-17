@@ -1427,7 +1427,7 @@ border: 0px solid #d40875;
         padding-left: 8px !important;
     }
  }
-@media  screen and (min-width: 380px) and (max-width: 720px) and (orientation: landscape) {
+@media only screen and (max-width: 720px) and (orientation: landscape) {
   .flr{
     flex-wrap: wrap;
     flex-direction: column-reverse !important;
