@@ -1427,6 +1427,9 @@ border: 0px solid #d40875;
         padding-left: 8px !important;
     }
  }
-/* @media only screen and (orientation: landscape) {
-  
-} */
+@media only screen and (orientation: landscape) {
+  .flr{
+    flex-wrap: wrap-reverse;
+    
+  }
+}
