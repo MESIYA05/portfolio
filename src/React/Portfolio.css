@@ -1433,7 +1433,7 @@ border: 0px solid #d40875;
     flex-direction: column-reverse !important;
   }
   .homeimg{
-    margin-left: 120px !important;
+    margin-left: 150px !important;
   }
   .morecard{
     margin-top: 35px !important;
@@ -1446,11 +1446,14 @@ border: 0px solid #d40875;
         margin: 35px 50px !important;
     }
     .me-auto a{
-    width: 90% !important;
+    width: 80% !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
     font-weight: bold !important;
     font-size: 15px !important;
     color: #fff !important;
+    gap: 10px !important;
+   }
+   .me-auto{
     gap: 10px !important;
    }
 }
