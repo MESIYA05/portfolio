@@ -911,7 +911,7 @@ border: 0px solid #d40875;
  
    }
 }
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 768px)  {
     .me-auto a{
     width: 99% !important;
  
@@ -1004,7 +1004,7 @@ border: 0px solid #d40875;
   }
    
  }
- @media screen and (min-width: 600px) and (max-width: 767px) and (orientation: landscape){
+ @media screen and (min-width: 600px) and (max-width: 767px){
     .me-auto a{
     width: 99% !important;
  
@@ -1068,7 +1068,7 @@ border: 0px solid #d40875;
         margin: 20px 50px !important;
     }
  }
- @media screen and (min-width: 481px) and (max-width: 599px) and (orientation: landscape){
+ @media screen and (min-width: 481px) and (max-width: 599px){
    .me-auto a{
     width: 99% !important;
  
@@ -1150,7 +1150,7 @@ border: 0px solid #d40875;
  }
 
 
- @media (max-width: 480px) and (orientation: landscape){
+ @media (max-width: 480px){
    .me-auto {
         padding-left: 0px !important;
         
@@ -1249,7 +1249,7 @@ border: 0px solid #d40875;
    
    
  }
- @media screen and (min-width: 400px) and (max-width: 450px) and (orientation: landscape){
+ @media screen and (min-width: 400px) and (max-width: 450px){
      .me-auto a{
   
     font-weight: bold !important;
@@ -1298,7 +1298,7 @@ border: 0px solid #d40875;
     }
 
  }
- @media screen and (min-width: 367px) and (max-width: 399px)  and (orientation: landscape){
+ @media screen and (min-width: 367px) and (max-width: 399px){
       .me-auto a{
   
     font-weight: bold !important;
@@ -1427,7 +1427,7 @@ border: 0px solid #d40875;
         padding-left: 8px !important;
     }
  }
-/* @media  screen and (max-width: 480px) and (orientation: landscape) {
+@media  (max-width: 560px) and (orientation: landscape) {
   .flr{
     flex-wrap: wrap;
     flex-direction: column-reverse !important;
@@ -1459,4 +1459,4 @@ border: 0px solid #d40875;
    .con1 h4{
     font-size: 15px !important;
    }
-} */
+}
