@@ -1438,6 +1438,6 @@ border: 0px solid #d40875;
     margin-right: auto;
   }
   .morecard{
-    row-gap: 20px !important;
+    margin-top: 20px !important;
   }
 }
