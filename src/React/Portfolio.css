@@ -1429,7 +1429,7 @@ border: 0px solid #d40875;
  }
 @media only screen and (orientation: landscape) {
   .flr{
-    flex-wrap: wrap-reverse;
-    
+    flex-wrap: wrap;
+    flex-direction: column-reverse !important;
   }
 }
