@@ -1433,18 +1433,23 @@ border: 0px solid #d40875;
     flex-direction: column-reverse !important;
   }
   .hero-image{
-    display: block ;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px !important;
   }
   .morecard{
     margin-top: 35px !important;
   }
   .skillfi{
-    margin:40px 50px !important;
+    margin:40px 80px !important;
     width: 23rem;
     }
     .toolskill{
         margin: 35px 50px !important;
     }
+    .me-auto a{
+    width: 99% !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+    color: #fff !important;
+   }
 }
