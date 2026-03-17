@@ -1433,13 +1433,13 @@ border: 0px solid #d40875;
     flex-direction: column-reverse !important;
   }
   .homeimg{
-    margin-left: 70px !important;
+    margin-left: 120px !important;
   }
   .morecard{
     margin-top: 35px !important;
   }
   .skillfi{
-    margin:40px 80px !important;
+    margin:40px 150px !important;
     width: 23rem;
     }
     .toolskill{
@@ -1451,6 +1451,6 @@ border: 0px solid #d40875;
     font-weight: bold !important;
     font-size: 15px !important;
     color: #fff !important;
-    gap: 20px !important;
+    gap: 10px !important;
    }
 }
