@@ -30,8 +30,8 @@ const Portfolio = () => {
 
 
   const roles = [
-    "Frontend Developer",
-    "React Developer",
+    "Web Developer",
+    "React Js Developer",
     "Full Stack Enthusiast"
   ];
 
@@ -226,16 +226,9 @@ const Portfolio = () => {
             </Card>
             
             </div>
-            
-
-            
             </div>
-
-
-           
-              
-        </div>
-        </div>
+          </div>
+       </div>
     </section>
 
     
