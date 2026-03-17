@@ -1432,4 +1432,8 @@ border: 0px solid #d40875;
     flex-wrap: wrap;
     flex-direction: column-reverse !important;
   }
+  .hero-image{
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }
