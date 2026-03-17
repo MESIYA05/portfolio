@@ -1441,8 +1441,10 @@ border: 0px solid #d40875;
     margin-top: 35px !important;
   }
   .skillfi{
-    margin-top: 35px !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
+    margin:40px 50px !important;
+    width: 23rem;
+    }
+    .toolskill{
+        margin: 35px 50px !important;
+    }
 }
