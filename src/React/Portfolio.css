@@ -450,7 +450,7 @@ border: 0px solid #d40875;
 .morecard:hover{
    background-color: rgb(6, 85, 65) !important;
    transform: scale(1.1) !important;
-   border: 2px solid rgb(6, 85, 65) !important;
+   border: 2px solid #0eb0d5 !important;
     border-left:6px solid #0eb0d5 !important;
   
    
@@ -1433,7 +1433,7 @@ border: 0px solid #d40875;
     flex-direction: column-reverse !important;
   }
   .homeimg{
-    margin-left: 180px !important;
+    margin-left: 185px !important;
   }
   .morecard{
     margin-top: 35px !important;
@@ -1454,6 +1454,6 @@ border: 0px solid #d40875;
     gap: 30px !important;
    }
    .me-auto{
-    gap: 20px !important;
+    gap: 30px !important;
    }
 }
