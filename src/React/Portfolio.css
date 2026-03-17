@@ -911,7 +911,7 @@ border: 0px solid #d40875;
  
    }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: landscape) {
     .me-auto a{
     width: 99% !important;
  
