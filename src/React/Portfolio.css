@@ -830,7 +830,7 @@ border: 0px solid #d40875;
         margin: 0 auto 20px auto;
     }
 
-    .morecard{ height: auto !important; min-height: 14rem; }
+    .morecard{ height: auto !important; min-height: 14rem; width: 15rem !important;  }
     .skillfi{ height: auto !important; min-height: 18rem; }
     .toolskill{ height: auto !important; min-height: 15rem; }
     .adjust{ height: auto !important; min-height: 20rem; }
