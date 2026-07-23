@@ -806,6 +806,9 @@ border: 0px solid #d40875;
         display: flex !important;
         flex-direction: column-reverse !important;
     }
+    .an{
+        font-weight: bold !important;
+    }
     .hometext{
         margin-top: 20px !important;
         text-align: center;
@@ -830,9 +833,9 @@ border: 0px solid #d40875;
         margin: 0 auto 20px auto;
     }
 
-    .morecard{ height: auto !important; min-height: 14rem; width: 17rem !important;  }
+    .morecard{ height: auto !important; min-height: 14rem; width: 18rem !important;  }
     .skillfi{ height: auto !important; min-height: 18rem; }
-    .toolskill{ height: auto !important; min-height: 15rem; }
+    .toolskill{ height: auto !important; min-height: 15rem; width: 15rem !important; }
     .adjust{ height: auto !important; min-height: 20rem; }
 
     .condiv{
