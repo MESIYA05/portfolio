@@ -840,9 +840,9 @@ border: 0px solid #d40875;
         margin: 0 auto 20px auto;
     }
 
-    .morecard{ height: auto !important; min-height: 14rem; width: 18rem !important; gap: 20px !important; padding: auto !important; margin: 15px 10px !important;}
+    .morecard{ height: auto !important; min-height: 14rem; width: 18rem !important;  row-gap: 60px !important; margin: 20px  auto !important;}
     .skillfi{ height: auto !important; min-height: 18rem; }
-    .toolskill{ height: auto !important; min-height: 15rem; width: 18rem !important; row-gap: 60px !important; margin: 20px 15px !important;}
+    .toolskill{ height: auto !important; min-height: 15rem; width: 18rem !important; row-gap: 60px !important; margin: 20px  auto !important;}
     .adjust{ height: auto !important; min-height: 20rem; }
 
     .condiv{
@@ -867,7 +867,10 @@ border: 0px solid #d40875;
         width: 80%;
     }
 }
-
+@media (max-width: 480px){
+    .morecard{ height: auto !important; min-height: 14rem; width: 17rem !important; gap: 10px 50px !important; margin: 30px  auto !important;}
+     .toolskill{ height: auto !important; min-height: 14rem; width: 17rem !important; gap: 10px 50px !important; margin: 20px  auto !important;}
+}
 /* Mobile landscape (phones rotated): width is bigger than portrait but
    viewport height is short, so switch back to a side-by-side layout and
    shrink vertical spacing instead of relying on width alone. */
