@@ -833,9 +833,9 @@ border: 0px solid #d40875;
         margin: 0 auto 20px auto;
     }
 
-    .morecard{ height: auto !important; min-height: 14rem; width: 18rem !important;  }
+    .morecard{ height: auto !important; min-height: 14rem; width: 19rem !important; gap: 20px !important;  }
     .skillfi{ height: auto !important; min-height: 18rem; }
-    .toolskill{ height: auto !important; min-height: 15rem; width: 15rem !important; }
+    .toolskill{ height: auto !important; min-height: 15rem; width: 18rem !important; gap: 20px !important;  }
     .adjust{ height: auto !important; min-height: 20rem; }
 
     .condiv{
