@@ -89,9 +89,13 @@ img {
 }
 
 .me-auto {
-    padding-left: 550px !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center;
+    width: 100%;
     gap: 30px !important;
-    
+    padding-left: 0 !important;
 }
 
 .secondskill{
@@ -111,9 +115,10 @@ img {
 }
 .homeimg{
     border-radius: 50%;
-    height: 400px !important;
-    width: 450px !important;
-    margin-left: 65px !important;
+    height: clamp(220px, 32vw, 400px) !important;
+    width: clamp(220px, 32vw, 450px) !important;
+    max-width: 90vw !important;
+    margin: 0 auto !important;
      box-shadow: 1px 0px 50px 4px #ff1dc3;
     -webkit-box-shadow: 1px 0px 50px 4px #ff1dc3;
     -moz-box-shadow: 1px 0px 50px 4px #ff1dc3; 
@@ -134,7 +139,7 @@ img {
 
 
 .hero-image img {
-  width: 320px;
+  width: min(320px, 70vw);
   border-radius: 50%;
   border: 6px solid #ff00c8 !important;
   animation: floatImage 4s ease-in-out infinite !important;
@@ -340,8 +345,10 @@ border: 0px solid #d40875;
 }
 .aboutimg{
     border-radius: 50%;
-    height: 400px !important;
-    width: 450px !important;
+    height: clamp(220px, 32vw, 400px) !important;
+    width: clamp(220px, 32vw, 450px) !important;
+    max-width: 90vw !important;
+    margin: 0 auto !important;
     box-shadow: 1px 0px 10px 4px #fff;
     -webkit-box-shadow: 1px 0px 10px 4px #fff;
     -moz-box-shadow: 1px 0px 10px 4px #fff;
@@ -384,12 +391,14 @@ border: 0px solid #d40875;
 .mes{
     color: #fff !important;
     text-shadow: 2px 1px 8px red !important;
-    margin-left: 150px !important;
+    text-align: center;
+    margin: 0 auto !important;
 }
 .fully{
     color: #fe00ae!important;
     text-shadow: 2px 1px 8px rgb(226, 222, 222) !important;
-    margin-left: 30px !important;
+    text-align: center;
+    margin: 0 auto !important;
 }
 .filly{
     box-shadow: 1px 0px 10px 4px rgba(165, 14, 44, 0.9);
@@ -400,14 +409,15 @@ border: 0px solid #d40875;
     border: 2px solid #ff00a6 ;
    
     border-radius: 10px !important;
-    border-radius: 10px !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
     height: 35px !important;
     width: 250px !important;
+    max-width: 90% !important;
     font-size: 18px !important;
    padding: 2px 0px !important;
-   margin-left: 90px !important;
+   margin: 0 auto !important;
+   display: block !important;
 }
 .filly a{
     list-style: none !important;
@@ -437,7 +447,7 @@ border: 0px solid #d40875;
     text-shadow: 2px 1px 2px #ff00a6 !important;
 }
 .morecard{
-    margin: 0px 20px !important;
+    margin: 15px auto !important;
     
     border-left:6px solid #ffff00 !important;
   
@@ -478,7 +488,7 @@ border: 0px solid #d40875;
 }
 .skillfi{
     border-radius: 20px !important;
-    margin: 0px 80px !important;
+    margin: 15px auto !important;
     background-color: #f5007f !important;
     border-left: 5px solid #FFFFFF !important;
     border-right: 5px solid #FFFFFF !important;
@@ -498,6 +508,7 @@ border: 0px solid #d40875;
 }
 .toolskill{
     border-radius: 20px !important;
+    margin: 15px auto !important;
     box-shadow: 1px 0px 10px 4px #d40875;
 }
 .toolskill:hover{
@@ -560,7 +571,7 @@ border: 0px solid #d40875;
     list-style-type: none !important;
 }
 .adjust{
-    margin-bottom: 60px !important;
+    margin: 0 auto 60px auto !important;
     box-shadow: 1px 0px 7px 1px #d40875 !important;
 }
 .con1{
@@ -569,13 +580,26 @@ border: 0px solid #d40875;
     box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9) !important;
     -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9) !important;
     -moz-box-shadow: 1px 0px 20px 8px rgba(190, 0, 159, 0.9) !important;
-    width: 40% !important;
+    width: min(500px, 90%) !important;
+    margin: 0 auto !important;
    
     
 }
 .condiv{
-    column-gap: 90px !important;
-    margin-left: 130px !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: stretch !important;
+    gap: 40px !important;
+    margin: 0 auto !important;
+    max-width: 1200px;
+}
+/* Both cards stretch to the height of the taller one, then center their
+   own content inside that shared height. */
+.con1, .con2{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
 }
 .con1 a{
     list-style-type: none !important;
@@ -598,10 +622,10 @@ border: 0px solid #d40875;
 .con1 h4{
     border: 3px solid #d40875 !important;
     border-radius: 20px !important;
-   
+    width: min(330px, 85%) !important;
     padding: 5px 15px !important;
     
-    margin: 20px 40px !important;
+    margin: 20px auto !important;
     box-shadow: 1px 0px 5px 1px #d40875 !important;
     
 }
@@ -615,7 +639,8 @@ border: 0px solid #d40875;
     box-shadow: 1px 0px 20px 8px rgba(237, 4, 210, 0.9) !important;
     -webkit-box-shadow: 1px 0px 20px 8px rgba(181, 4, 113, 0.9) !important;
     -moz-box-shadow: 1px 0px 20px 8px rgba(190, 0, 159, 0.9) !important;
-    width: 40% !important;
+    width: min(500px, 90%) !important;
+    margin: 0 auto !important;
 }
 .con2 input,textarea{
     border: 2px solid #000000;
@@ -625,10 +650,11 @@ border: 0px solid #d40875;
     border-style: none !important;
     list-style: none !important;
     padding: 5px 15px !important;
-    margin: 20px 40px !important;
+    margin: 20px auto !important;
     box-shadow: 1px 0px 5px 5px #d40875 ;
     border-radius: 8px;
     width: 80% !important;
+    display: block;
 }
 .conbut{
     border-style: none !important;
@@ -644,12 +670,13 @@ border: 0px solid #d40875;
     border-style: none !important;
     list-style: none !important;
     padding: 5px 15px !important;
-    margin: 20px 40px !important;
+    margin: 20px auto !important;
     box-shadow: 1px 0px 5px 5px #d10697;
     border-radius: 8px;
     width: 80% !important;
     color: #ffffff !important;
     background-color: black !important;
+    display: block;
 }
 .con2 button:hover{
     color: #fff !important;
@@ -679,784 +706,226 @@ border: 0px solid #d40875;
 .footer h5{
     text-shadow: 2px 1px  4px #ff3131,2px 1px  4px #ff3131,2px 1px  4px #ff3131,2px 1px  4px #ff3131;
 }
-@media screen and (min-width: 1210px) and (max-width: 1399px){
-    .toolskill{
-        width: 15rem !important;
-    }
-    .adjust{
-        width: 20rem !important;
-        gap: 10px !important;
-    }
-    .me-auto {
-        padding-left: 290px !important;
-        gap: 30px !important;
-        
-    }
+
+/* ==========================================================================
+   RESPONSIVE LAYOUT
+   Fluid, orientation-aware system. No content, text, or colors are changed
+   here — only sizing, spacing and alignment so the page behaves correctly
+   in BOTH portrait and landscape at every device tier:
+
+     Mobile   : up to 767px   (phones, portrait + landscape)
+     Tablet   : 768px - 1023px (tablets, portrait + landscape)
+     Laptop   : 1024px - 1439px
+     Desktop  : 1440px and up
+
+   Centering now uses flexbox / auto-margins instead of fixed px offsets,
+   so rotating a device no longer breaks alignment.
+   ========================================================================== */
+
+.portwidth{
+    overflow: hidden !important;
 }
-@media screen and (min-width: 1025px) and (max-width: 1200px){
+
+.condiv{
+    padding: 0 20px;
+}
+
+/* ---------- General fluid card sizing shared by all tiers ---------- */
+.morecard,
+.skillfi,
+.toolskill,
+.adjust{
+    width: min(100%, 24rem) !important;
+}
+
+/* =============================== DESKTOP =============================== */
+/* 1440px and up */
+@media (min-width: 1440px){
     .homeimg{
         height: 400px !important;
         width: 450px !important;
-        margin-left: 60px !important;
+    }
+    .morecard{ width: 22rem !important; height: 14rem !important; }
+    .skillfi{ width: 25rem !important; height: 21rem !important; }
+    .toolskill{ width: 18rem !important; height: 16rem !important; }
+    .adjust{ width: 24rem !important; height: 22rem !important; }
+}
+
+/* =============================== LAPTOP ================================= */
+/* 1024px - 1439px, covers laptops and landscape tablets */
+@media (min-width: 1024px) and (max-width: 1439px){
+    .homeimg{
+        height: clamp(320px, 28vw, 400px) !important;
+        width: clamp(320px, 28vw, 450px) !important;
+    }
+    .morecard{ width: 18rem !important; height: 16rem !important; }
+    .skillfi{ width: 22rem !important; height: 21rem !important; }
+    .toolskill{ width: 15rem !important; height: 16rem !important; }
+    .adjust{ width: 19rem !important; height: 22rem !important; }
+    .subhead{ margin: 20px 0px !important; }
+}
+
+/* =============================== TABLET ================================== */
+/* 768px - 1023px, portrait AND landscape */
+@media (min-width: 768px) and (max-width: 1023px){
+    .flr{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .hometext{ margin-top: 20px !important; text-align: center; }
+    .homeimg{
+        height: clamp(260px, 40vw, 380px) !important;
+        width: clamp(260px, 40vw, 380px) !important;
+        margin: 20px auto !important;
+    }
+    .aboutimg{
+        height: clamp(260px, 40vw, 380px) !important;
+        width: clamp(260px, 40vw, 380px) !important;
+    }
+    .morecard{ width: 18rem !important; height: 17rem !important; }
+    .skillfi{ width: 22rem !important; height: 22rem !important; }
+    .toolskill{ width: 17rem !important; height: 18rem !important; }
+    .adjust{ width: 20rem !important; height: 22rem !important; }
+    .subhead{ margin: 20px 0px !important; }
+    .condiv{ gap: 30px !important; }
+}
+
+/* Tablet landscape gets a bit more breathing room since height is short */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    .flr{ flex-direction: row-reverse !important; }
+    .hometext{ margin-top: 90px !important; text-align: left; }
+    #home{ height: auto !important; }
+}
+
+/* ================================ MOBILE ================================= */
+/* up to 767px, portrait AND landscape */
+@media (max-width: 767px){
+    .portwidth{ overflow: hidden !important; }
+
+    .flr{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+    .hometext{
         margin-top: 20px !important;
-    } 
-   .but{
-        margin: 0px 80px !important;
-    }
-    .filly{
-        margin: 20px 90px !important;
-    }
-    .mooo{
-        padding: 0px 20px !important;
-    }
-    .moreab{
-        margin: 15px 0px !important;
-    }
-    .morecard{
-        width: 18rem !important;
-        height: 16rem !important;
-    }
-    .skillfi{
-        width: 24rem !important;
-        margin: 0px 30px !important;
-       }
-       .toolskill{
-        width: 13rem !important;
-       }
-       .adjust{
-        width: 18rem !important;
-       }
-       .subhead{
-        margin: 20px 0px !important;
-       }
-       .condiv{
-        margin: 0px 70px !important;
-       }
-       .portwidth{
-        overflow: hidden !important;
-       }
-       .me-auto {
-        padding-left: 50px !important;
-        gap: 30px !important;
-        
-    }
-}
-@media (max-width: 1024px){
-   .homeimg{
-    height: 400px !important;
-    width: 410px !important;
-    margin-left: 60px !important;
-    margin-top: 20px !important;
-   } 
-   .but{
-    margin-left: 90px !important;
-   }
-   .filly{
-    margin: 10px 90px !important;
-   }
-   .mooo{
-    padding: 0px 20px !important;
-   }
-   .moreab{
-    margin: 15px 0px !important;
-   }
-   .morecard{
-    width: 18rem !important;
-    height: 16rem !important;
-   }
-   .skillfi{
-    width: 24rem !important;
-    margin: 0px 30px !important;
-   }
-   .toolskill{
-    width: 13rem !important;
-   }
-   .adjust{
-    width: 18rem !important;
-   }
-   .subhead{
-    margin: 20px 0px !important;
-   }
-   .condiv{
-    margin: 0px 70px !important;
-   }
-   .portwidth{
-    overflow: hidden !important;
-   }
-   .me-auto {
-    padding-left: 50px !important;
-    gap: 30px !important;
-    
-}
-}
-@media screen and (min-width: 840px) and (max-width: 991px){
-    .flr{
-        display: flex !important;
-        flex-direction: column-reverse !important;
-    }
-    .morecard{
-        width: 16rem !important;
-        margin: 20px 0px !important;
-        height: 19rem !important;
-    }
-    .skillfi{
-        width: 24rem !important;
-        height: 23rem !important;
-        margin: 20px 150px !important;
-    }
-    .toolskill{
-        width: 17rem !important;
-        margin: 20px 0px !important;
-        height: 19rem !important;
-    }
-    
-    .aboutimg{
-        margin: 0px 120px !important;
-    }
-    .mes{
-        margin: 20px 270px !important;
-    }
-    .homeimg{
-        height: 400px !important;
-        width: 400px !important;
-        margin-left: 280px !important;
-        margin-top: 50px !important;
-    }
-    .fully{
-        margin: 10px 170px !important;
-        font-size:large !important;
-        font-weight: 900;
-    }
-    .filly{
-        margin: 10px 190px !important;
-    }
-    .butt{
-        margin: 0px 220px !important;
-    }
-   
-     .me-auto a{
-    width: 99% !important;
-    gap: 35px !important;
-    margin: 20px 0px !important;
- 
-   }
-   .me-auto{
-    padding-left: 0px !important;
-     width: 99% !important;
-   }
-}
-@media screen and (min-width: 769px) and (max-width: 839px){
-    .homeimg{
-        height: 400px !important;
-        width: 440px !important;
-        margin-left: 150px !important;
-        margin-top: 50px !important;
-    }
-    .hometext{
-        margin: 0px 0px !important;
-    }
-    .flr{
-        display: flex !important;
-        flex-direction: column-reverse !important;
-    }
-    .hire{
-        margin: 0px 0px !important;
-    }
-    .but{
-        margin: 0px 120px !important;
-    }
-    .aboutimg{
-        margin: 0px 120px !important;
-    }
-    .mes{
-        margin: 20px 270px !important;
-    }
-    .fully{
-        margin: 10px 170px !important;
-        font-size:large !important;
-        font-weight: 900;
-    }
-    .filly{
-        margin: 10px 190px !important;
-    }
-    .morecard{
-        width: 16rem !important;
-        margin: 20px 0px !important;
-        height: 19rem !important;
-    }
-    .skillfi{
-        width: 24rem !important;
-        height: 23rem !important;
-        margin: 20px 150px !important;
-    }
-    .toolskill{
-        width: 17rem !important;
-        margin: 20px 0px !important;
-        height: 19rem !important;
-    }
-    .adjust{
-        width: 20rem !important;
-    }
-    .me-auto {
-       
-       margin: 20px 0px !important;
-        
-        gap: 25px !important;
         text-align: center;
-        width: 100% !important;
-        
-    }
-    .me-auto a{
-    width: 99% !important;
- 
-   }
-}
-@media (max-width: 768px)  {
-    .me-auto a{
-    width: 99% !important;
- 
-   }
-   .me-auto{
-    padding-left: 0px !important;
-     width: 99% !important;
-      margin: 20px 0px !important;
-   }
-    .portwidth{
-        overflow: hidden !important;
-    }
-    #home{
-        height: 120vh !important;
-    }
-    .flr{
-        display: flex;
-        flex-direction: column-reverse;
     }
     .homeimg{
-        margin: 20px 160px !important;
+        height: clamp(200px, 55vw, 320px) !important;
+        width: clamp(200px, 55vw, 320px) !important;
+        margin: 20px auto !important;
     }
     .aboutimg{
-        margin: 0px 90px !important;
-    }
-    .mes{
-        margin: 10px 250px !important;
-    }
-    .fully{
-        margin: 10px 140px !important;
-    }
-    .filly{
-        margin: 10px 190px !important;
-    }
-   
-    .condiv{
-        row-gap: 90px !important;
-        margin-left: 110px !important;
-        margin-top: 40px !important;
-    }
-    .con1{
-        border: 2px solid #d40875 !important;
-        border-radius: 20px !important;
-        box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
-        -webkit-box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
-        -moz-box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
-        width: 90% !important;
-    }
-    .con1 h4{
-        width: 330px !important;
-        padding: 5px 15px !important;
-    
-        margin: 20px 70px !important;
-    }
-    .con2{
-      border: 2px solid #d40875 !important;
-        border-radius: 20px !important;
-        box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
-        -webkit-box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
-        -moz-box-shadow: 1px 0px 10px 4px rgba(0,254,252,0.9);
-        width: 90% !important;
-    }
-    .adjust{
-        margin-left: 0px !important;
-        width: 20rem !important;
-    }
-    .toolskill{
-        margin: 20px 30px !important;
-        width: 17rem !important;
-    }
-    .skillfi{
-        margin: 20px 150px !important;
-    }
-    .morecard{
-        margin: 10px 30px !important;
-        
-    }
-    .hometext{
-       margin-top: calc(-80px) !important;
-    }
-    .hire{
-        margin-left: 190px !important;
-    }
-    .abbb{
-        margin-left: 40px !important;
-    }
-    .hero-image img {
-    width: 250px;
-    margin-bottom: 30px;
-  }
-   
- }
- @media screen and (min-width: 600px) and (max-width: 767px){
-    .me-auto a{
-    width: 99% !important;
- 
-   }
-   .me-auto{
-    padding-left: 0px !important;
-     width: 99% !important;
-   }
-    .homeimg{
-        margin-left: 80px !important;
-    }
-    .aboutimg{
-        margin: 0px 0px !important;
-    }
-    .but{
-        margin: 0px 80px !important;
-
-    }
-    .mes{
-        margin: 0px 170px !important;
-    }
-    .fully{
-        margin: 10px 70px !important;
-    }
-    .filly{
-        margin: 10px 110px !important;
-    }
-    .morecard{
-        width: 21rem !important;
-        margin: 20px 70px !important;
-    }
-    .toolskill{
-        width: 19rem !important;
-        margin: 20px 100px !important;
-       
-    }
-    .skillfi{
-        margin:20px 70px !important;
-    }
-    .adjust{
-        width: 23rem !important;
-        margin: 20px 70px !important;
-    }
-    .con1{
-        margin: 10px 40px !important;
-    }
-    .con2{
-        margin: 10px 40px !important;
-    }
-    .con1 h4{
-        border: 3px solid #39ff14 ;
-        border-radius: 20px !important;
-       
-        padding: 5px 30px !important;
-        width: 300px !important;
-        margin: 20px 40px !important;
-        box-shadow: 1px 0px 5px 1px #39ff14;
-        
-    }
-    .condiv{
-        margin: 20px 50px !important;
-    }
- }
- @media  (max-height: 599px) and (orientation: landscape) {
-  .flr{
-    flex-wrap: wrap !important;
-    flex-direction: column-reverse !important;
-  }
-  .homeimg{
-    margin-left: 185px !important;
-  }
-  .morecard{
-    margin-top: 35px !important;
-  }
-  .skillfi{
-    margin:40px 150px !important;
-    width: 23rem;
-    }
-    .toolskill{
-        margin: 35px 50px !important;
-    }
-    .me-auto a{
-    width: 80% !important;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-    font-weight: bold !important;
-    font-size: 15px !important;
-    color: #fff !important;
-    gap: 30px !important;
-   }
-   .me-auto{
-    gap: 20px !important;
-   }
-   .con1 h4{
-    font-size: 15px !important;
-   }
-}
- @media screen and (min-width: 481px) and (max-width: 598px){
-   .me-auto a{
-    width: 99% !important;
- 
-   }
-   .me-auto{
-    padding-left: 0px !important;
-     width: 99% !important;
-   }
-    .homeimg{
-        margin-left: 50px !important;
-    }
-    .aboutimg{
-        margin: 0px 30px !important;
-        width: 400px !important;
-    }
-    .but{
-        margin: 0px 70px !important;
-    }
-    .mes{
-        margin: 10px 170px !important;
-    }
-    .fully{
-        margin: 10px 50px !important;
-    }
-    .filly{
-        margin: 10px 90px !important;
-    }
-    .morecard{
-        margin: 20px 100px !important;
-    }
-    .skillfi{
-        margin: 20px 70px !important;
-    }
-    .toolskill{
-        margin: 30px 120px !important;
-    }
-    .adjust{
-        margin: 30px 100px !important;
-    }
-    .con1 h4{
-        width: 220px !important;
-        margin: 20px 20px !important;
-        padding: 2px 20px !important;
-    }
-    .con1{
-        border: 2px solid #d40875 !important;
-    }
-    .con2{
-        border: 2px solid #d40875 !important;
-    }
-    .me-auto {
-       
-       margin: 20px 0px !important;
-        
-        gap: 25px !important;
-        text-align: center;
-        width: 100% !important;
-        
-    }
-    .hero-buttons {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .btn {
-    width: 100%;
-  }
-
-  .role {
-    font-size: 18px;
-  }
-    .hero-buttons {
-    flex-direction: column;   
-    width: 100%;
-  }
-   .btn {
-    width: 100%;              
-  }
- }
-
-
- @media (max-width: 480px){
-   .me-auto {
-        padding-left: 0px !important;
-        
-        
-        
-    }
-   .me-auto a{
-    width: 99% !important;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-    /* font-weight: 300 !important; */
-    font-weight: bold !important;
-    font-size: 17px !important;
-    color: #fff !important;
-   }
-   .con1{
-    width: 22rem !important;
-    margin: 10px 0px !important;
-    border: 2px solid #d40875 !important;
-    
-   }
-   .con2{
-    width: 22rem !important;
-    border: 2px solid #d40875 !important;
-   }
-   .condiv{
-    margin: 10px 50px !important;
-   }
-    .con1 h4{
-        width: 270px !important;
-        padding: 5px 25px !important;
-    
-        margin: 20px 20px !important;
-    }
-    .homeimg{
-        margin-left: 30px !important;
-        width: 390px !important;
-    }
-    .aboutimg{
-        width: 390px !important;
-        margin: 0px 30px !important;
-    }
-    .portwidth{
-        overflow: hidden !important;
-    }
-    .adjust{
-        margin-left: 40px !important;
-        width: 23rem !important;
+        height: clamp(200px, 55vw, 320px) !important;
+        width: clamp(200px, 55vw, 320px) !important;
     }
     .pot{
-        
         padding: 0px 7px !important;
-       
         height: 30px !important;
-       
         width: 130px !important;
-       
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
-        font-weight: 1000;
-        font-size: 19px;
+        font-size: 17px;
     }
-    .hire{
-        margin-left: 90px !important;
-    }
-    .more{
-        margin-left: 5px !important;
-    }
-    .abbb{
-        margin-left: 0px !important;
-    }
-    .mes{
-        margin-left: 170px !important;
-    }
-    .fully{
-        margin: 0px 60px !important;
-        font-size: 20px !important;
-    }
-    .filly{
-        margin: 15px 80px !important;
-    }
-    .morecard{
-        margin:20px  70px !important;
-    }
-    .skillfi{
-        margin: 20px 40px !important;
-        width: 23rem !important;
-    }
-    .toolskill{
-        margin-left: 90px  !important;
-    }
-    .con2 input,textarea{
-        margin-left: 28px !important;
-    }
-    .conbut{
-        margin-left: 28px !important;
-    }
-   
-   
- }
- @media screen and (min-width: 400px) and (max-width: 450px){
-     .me-auto a{
-  
-    font-weight: bold !important;
-   
-   }
-    .homeimg{
-        margin-left: 35px !important;
-        width: 320px !important;
-    }
-    .aboutimg{
-        width: 320px !important;
-        margin: 0px 30px !important;
-    }
-    .mes{
-        margin: 10px 140px !important;
-    }
-    .fully{
-        font-size: 17px !important;
-    }
-    .filly{
-        margin: 10px 60px !important;
-    }
-    .morecard{
-        margin: 30px 50px !important;
-    }
-    .skillfi{
-        margin: 20px 10px !important;
-    }
-    .toolskill{
-        margin: 30px 60px !important;
-    }
-    .adjust{
-        margin: 20px 10px !important;
-    }
-    .con1 h4{
-        width: 230px !important;
-    }
-    .portwidth{
-        overflow: hidden !important;
-    }
-    .con1{
-         border: 2px solid #d40875 !important;
-    }
-    .con2{
-         border: 2px solid #d40875 !important;
+    .hero-image img{
+        width: min(220px, 60vw);
+        margin: 0 auto 20px auto;
     }
 
- }
- @media screen and (min-width: 367px) and (max-width: 399px){
-      .me-auto a{
-  
-    font-weight: bold !important;
-   
-   }
-    .homeimg{
-        margin-left: 20px !important;
-        width: 300px !important;
-    }
-    .but{
-        margin: 0px 30px !important;
-    }
-    .aboutimg{
-        width: 300px !important;
-        margin: 0px 20px !important;
-    }
-    .mes{
-        margin: 10px 120px !important;
-    }
-    .fully{
-        font-size: 14px !important;
-    }
-    .filly{
-        margin: 20px 40px !important;
-    }
-    .morecard{
-        margin: 30px 30px !important;
-    }
-    .skillfi{
-        margin: 20px 10px !important;
-        width: 20rem !important;
-        height: 22rem !important;
-    }
-    
-   
-    .toolskill{
-        margin: 30px 30px !important;
-    }
-    .adjust{
-        margin: 20px 10px !important;
-        width: 20rem !important;
-    }
-    .con1 h4{
-        width: 200px !important;
-        padding: 10px 15px !important;
-        margin: 20px 10px !important;
-    }
-    .con1{
-        width: 500px !important;
-        border: 2px solid #d40875 !important;
-    }
-    .con2{
-         border: 2px solid #d40875 !important;
-    }
-    .portwidth{
-        overflow: hidden !important;
-    }
- }
- @media screen and (min-width: 320px) and (max-width: 366px){
-    .homeimg{
-        margin-left: 20px !important;
-        width: 290px !important;
-    }
-    .but{
-        margin: 0px 0px !important;
-    }
-    .butt{
-        margin: 0px 40px !important;
-        
-    }
-    .aboutimg{
-        width: 290px !important;
-        margin: 0px 20px !important;
-    }
-    .mes{
-        margin: 10px 120px !important;
-    }
-    .fully{
-        font-size: 14px !important;
-        margin: 20px 50px !important;
-    }
-    .filly{
-        margin: 20px 40px !important;
-    }
-    .morecard{
-        margin: 30px 30px !important;
-        width: 17rem !important;
-    }
-    .skillfi{
-        margin: 20px 10px !important;
-        width: 19rem !important;
-        height: 23rem !important;
-    }
-    .abtab{
+    .morecard{ height: auto !important; min-height: 14rem; }
+    .skillfi{ height: auto !important; min-height: 18rem; }
+    .toolskill{ height: auto !important; min-height: 15rem; }
+    .adjust{ height: auto !important; min-height: 20rem; }
+
+    .condiv{
+        gap: 30px !important;
         margin-top: 30px !important;
     }
-    .hometext h3{
-        font-weight: 600 !important;
-       
-        font-size: medium !important;
-    }
-    
-    .toolskill{
-        margin: 30px 30px !important;
-    }
-    .adjust{
-        margin: 20px 10px !important;
-        width: 18rem !important;
+    .con1, .con2{
+        width: 92% !important;
     }
     .con1 h4{
-        width: 200px !important;
-        padding: 10px 15px !important;
-        margin: 20px 10px !important;
+        width: 90% !important;
     }
-    .con1{
-        width: 500px !important;
-         border: 2px solid #d40875 !important;
+    .con2 input, .con2 textarea, .conbut{
+        width: 88% !important;
     }
-    .con2{
-         border: 2px solid #d40875 !important;
+
+    .hero-buttons{
+        flex-direction: column;
+        align-items: center;
     }
-    .portwidth{
-        overflow: hidden !important;
+    .btn{
+        width: 80%;
     }
-    .more{
-        padding-left: 8px !important;
+}
+
+/* Mobile landscape (phones rotated): width is bigger than portrait but
+   viewport height is short, so switch back to a side-by-side layout and
+   shrink vertical spacing instead of relying on width alone. */
+@media (max-width: 900px) and (orientation: landscape){
+    #home{ height: auto !important; }
+    .flr{
+        flex-direction: row-reverse !important;
+        flex-wrap: wrap !important;
     }
- }
+    .hometext{
+        margin-top: 70px !important;
+        text-align: left;
+    }
+    .homeimg{
+        height: clamp(180px, 26vh, 260px) !important;
+        width: clamp(180px, 26vh, 260px) !important;
+        margin: 10px auto !important;
+    }
+    .hero-image img{
+        width: clamp(160px, 24vh, 240px);
+    }
+    .morecard, .skillfi, .toolskill, .adjust{
+        margin: 15px auto !important;
+    }
+    .condiv{
+        margin-top: 20px !important;
+    }
+}
+
+/* ============================ 767px – 1000px ============================= */
+/* Large phones / small-to-mid tablets in this exact band:
+   - hero image shows ABOVE the "Hello I'm Mesiya" text (order only, no
+     content/JSX change)
+   - the two contact cards (Get in Touch Us / Get in Touch for Collaboration)
+     are forced to equal width AND equal height */
+@media (min-width: 767px) and (max-width: 1000px){
+    .flr{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    /* .hometext is the text column; its sibling in .flr is the image column.
+       Reordering visually only — markup/content stays untouched. */
+    .flr > .hometext{
+        order: 2 !important;
+        margin-top: 20px !important;
+    }
+    .flr > .hometext ~ div{
+        order: 1 !important;
+    }
+    .homeimg{
+        height: clamp(260px, 40vw, 360px) !important;
+        width: clamp(260px, 40vw, 360px) !important;
+        margin: 20px auto !important;
+    }
+
+    .con1, .con2{
+        width: min(480px, 90%) !important;
+        margin: 0 auto !important;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 360px){
+    .homeimg, .aboutimg{
+        height: 220px !important;
+        width: 220px !important;
+    }
+    .skillfi, .adjust{ width: 92vw !important; }
+    .fully{ font-size: 14px !important; }
+    .name{ font-size: clamp(28px, 8vw, 40px); }
+}
