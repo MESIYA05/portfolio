@@ -85,7 +85,15 @@ img {
 }
 .navbar-toggler-icon{
   background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke='rgba(219,7,141)' stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e") !important;
- 
+  transition: transform 0.25s ease !important;
+}
+
+/* Driven by explicit React state (navExpanded) via a 'toggler-open' class
+   on the toggle button — reliable regardless of aria-expanded timing. */
+.navbar-toggler.toggler-open .navbar-toggler-icon,
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke='rgba(219,7,141)' stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272.5%27 d=%27M7 7L23 23M23 7L7 23%27/%3e%3c/svg%3e") !important;
+  transform: rotate(180deg);
 }
 
 .me-auto {
@@ -801,13 +809,12 @@ border: 0px solid #d40875;
 /* up to 767px, portrait AND landscape */
 @media (max-width: 767px){
     .portwidth{ overflow: hidden !important; }
-
+    .an{
+        font-weight: bold !important;
+    }
     .flr{
         display: flex !important;
         flex-direction: column-reverse !important;
-    }
-    .an{
-        font-weight: bold !important;
     }
     .hometext{
         margin-top: 20px !important;
@@ -833,9 +840,9 @@ border: 0px solid #d40875;
         margin: 0 auto 20px auto;
     }
 
-    .morecard{ height: auto !important; min-height: 14rem; width: 19rem !important; gap: 20px !important;  }
+    .morecard{ height: auto !important; min-height: 14rem; width: 18rem !important; gap: 20px !important; padding: auto !important; margin: 15px 10px !important;}
     .skillfi{ height: auto !important; min-height: 18rem; }
-    .toolskill{ height: auto !important; min-height: 15rem; width: 18rem !important; gap: 20px !important;  }
+    .toolskill{ height: auto !important; min-height: 15rem; width: 18rem !important; row-gap: 60px !important; margin: 20px 15px !important;}
     .adjust{ height: auto !important; min-height: 20rem; }
 
     .condiv{

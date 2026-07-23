@@ -28,7 +28,7 @@ import 'aos/dist/aos.css'
 
 const Portfolio = () => {
 
-
+const [navExpanded, setNavExpanded] = useState(false);
   const roles = [
     "Web Developer",
     "React Js Developer",
@@ -89,10 +89,10 @@ const Portfolio = () => {
   return (
     <>
        <div className='portwidth'>
-      <Navbar expand="lg"  className="  navba navbar" >
+      <Navbar expand="lg" className="navba navbar" expanded={navExpanded} onToggle={(val) => setNavExpanded(val)}>
       <Container >
         <Navbar.Brand href="#home" className='pot'>PORTFOLIO</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"  />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className={navExpanded ? 'toggler-open' : ''} />
         <Navbar.Collapse id="basic-navbar-nav "  >
           <Nav className="me-auto " >
             <Nav.Link href="#home" className='an'>HOME</Nav.Link>
